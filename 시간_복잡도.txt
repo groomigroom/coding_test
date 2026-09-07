@@ -4,3 +4,32 @@
 빅 오메가(Ω(n)): 최선일 때(best case)의 연산 횟수를 나타낸 표기법
 빅 세타(Θ(n)): 보통일 때(average case)의 연산 횟수를 나타낸 표기법
 빅 오(O(n)): 최악일 때(worst case)의 연산 횟수를 나타낸 표기법
+
+
+---------------------------------------------------------------------
+
+https://www.youtube.com/watch?v=XncTU-4i1KI&list=PLFgS-xIWwNVX-zm4m6suWC9d7Ua9z7fuT
+
+1분 25초
+
+
+
+---------------------------------------------------------------------
+
+
+
+public class GroomiTime {
+    public static void main(String[] args) {
+        //1~100 사이 랜덤값 선택
+        int findNumber = (int)(Math.random() * 100);
+        for (int i = 0; i < 100; i++) {
+            if (i == findNumber) {
+                System.out.print(i);
+                break;
+            }
+        }
+    }
+}
+
+
+---------------------------------------------------------------------
