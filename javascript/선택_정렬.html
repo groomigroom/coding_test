@@ -13,15 +13,18 @@
         let array = [1, 2, 45, 33, 22, 234, 21, 23];
         const n = array.length;
         for(let i = 0; i < n-1; i++) {
+            let tmp;
             let minIdx = i;
             for(let k = i+1; k < n; k++) {
                 if(array[minIdx] > array[k]) {
-                    minIdx = k;
-                    console.log(k);
+                    minIdx = k;                   
                 }
             }
+            tmp = array[i];
+            array[i] = array[minIdx];
+            array[minIdx] = tmp;
         }
-        console.log(i);
+        console.log(array);
     </script>
   </body>
 </html>
