@@ -14,8 +14,11 @@
         const n = array.length;
         for(let i = 0; i < n-1; i++) {
             let minIdx = i;
-            for(let k = 0; k < n; k++) {
-              
+            for(let k = i+1; k < n; k++) {
+                if(array[minIdx] > array[k]) {
+                    minIdx = k;
+                    console.log(k);
+                }
             }
         }
         console.log(i);
