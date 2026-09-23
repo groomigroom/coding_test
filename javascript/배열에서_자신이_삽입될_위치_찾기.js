@@ -1,4 +1,4 @@
-const findInsertIdx (array, data) {
+const findInsertIdx = (array, data) => {
     let findIdx = -1;
     for(let i = 0; i < array.length; i++) {
       if (array[i] > data) {
@@ -11,7 +11,7 @@ const findInsertIdx (array, data) {
       } else {
         return findIdx;
       }
-    }
+    };
     
     __________
 
