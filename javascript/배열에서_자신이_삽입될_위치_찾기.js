@@ -1,5 +1,4 @@
-class Main {
-  public int findInsertIdx (int[] array, int data) {
+const findInsertIdx (int[] array, int data) {
     int findIdx = -1;
     for(int i = 0; i < array.length; i++) {
       if (array[i] > data) {
@@ -13,6 +12,8 @@ class Main {
         return findIdx;
       }
     }
+    
+    __________
 
     public static void main(String[] args) {
     int[] testArray = {};
