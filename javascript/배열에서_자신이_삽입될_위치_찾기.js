@@ -17,9 +17,5 @@ const findInsertIdx = (array, data) => {
     
     let testArray = [];
 
-    // 1. 
-    // 2. 생성한 객체를 통해 메서드를 호출합니다.
-    int insPos = mainInstance.findInsertIdx(testArray, 55);
+    findInsertIdx(testArray, 55);
     System.out.println(insPos); // 출력: 0
-  }
-}
