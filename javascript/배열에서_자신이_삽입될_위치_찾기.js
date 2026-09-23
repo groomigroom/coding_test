@@ -10,12 +10,12 @@ const findInsertIdx = (array, data) => {
       return array.length;
       } else {
         return findIdx;
-      }
-    };
+    }
+};
     
 
     
-    let testArray = [];
+let testArray = [];
 
-    let insPos = findInsertIdx(testArray, 55);
-    console.log(insPos); // 출력: 0
+let insPos = findInsertIdx(testArray, 55);
+console.log(insPos); // 출력: 0
