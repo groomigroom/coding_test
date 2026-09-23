@@ -13,14 +13,11 @@ const findInsertIdx = (array, data) => {
       }
     };
     
-    __________
 
-    public static void main(String[] args) {
-    int[] testArray = {};
+    
+    let testArray = [];
 
-    // 1. Main 클래스의 객체(인스턴스)를 생성합니다.
-    Main mainInstance = new Main();
-
+    // 1. 
     // 2. 생성한 객체를 통해 메서드를 호출합니다.
     int insPos = mainInstance.findInsertIdx(testArray, 55);
     System.out.println(insPos); // 출력: 0
