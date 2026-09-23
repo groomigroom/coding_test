@@ -1,6 +1,6 @@
-const findInsertIdx (int[] array, int data) {
-    int findIdx = -1;
-    for(int i = 0; i < array.length; i++) {
+const findInsertIdx (array, data) {
+    let findIdx = -1;
+    for(let i = 0; i < array.length; i++) {
       if (array[i] > data) {
         findIdx = i;
         break;
