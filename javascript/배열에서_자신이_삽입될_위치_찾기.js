@@ -17,5 +17,5 @@ const findInsertIdx = (array, data) => {
     
     let testArray = [];
 
-    findInsertIdx(testArray, 55);
+    let insPos = findInsertIdx(testArray, 55);
     console.log(insPos); // 출력: 0
