@@ -18,4 +18,4 @@ const findInsertIdx = (array, data) => {
     let testArray = [];
 
     findInsertIdx(testArray, 55);
-    System.out.println(insPos); // 출력: 0
+    console.log(insPos); // 출력: 0
