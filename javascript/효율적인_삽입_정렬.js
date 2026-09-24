@@ -3,7 +3,9 @@ const insertionSort = (ary) => {
     for (let end = 1; end < n; end++) {
         for (let cur = end; cur > 0; cur--) {}
             if (ary[cur-1] > ary[cur]) {
-                ary[cur-1], ary[cur] = ary[cur], ary[cur-1]
+                let tmp = ary[cur-1];
+                ary[cur-1] = ary[cur];
+                ary[cur] = tmp;
             }
     }
 
