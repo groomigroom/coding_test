@@ -1,4 +1,4 @@
-def insertionSort(ary):
+const insertionSort = (ary) => {
     n = len(ary)
     for end in range(1, n):
         for cur in range(end, 0, -1):
@@ -6,8 +6,9 @@ def insertionSort(ary):
                 ary[cur-1], ary[cur] = ary[cur], ary[cur-1]
 
     return ary
+};
 
-dataAry = [188, 162, 168, 120, 50, 150, 177, 105]
+let dataAry = [188, 162, 168, 120, 50, 150, 177, 105]
 
 #정렬 전
 print(dataAry)
@@ -22,3 +23,5 @@ print(dataAry)
 
 
 """
+
+console.log("Hello, World!");
