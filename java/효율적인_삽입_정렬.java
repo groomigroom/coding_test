@@ -3,9 +3,14 @@ public class Main {
       int n = ary.length;
       for(int end = 1; end < n; end++) {
         for(int cur = end; cur > 0; end--) {
-          if(ary[cur-1] > ary[cur])
+          if(ary[cur-1] > ary[cur]) {
+            int tmp = ary[cur-1];
+            ary[cur-1] = ary[cur];
+            ary[cur] = tmp;
+          }
         }
       }
+      return ary;
     } 
 
     public static void main(String[] args) {
