@@ -1,7 +1,7 @@
 const insertionSort = (ary) => {
     const n = ary.length;
-    for (let end; end < n; end++) {
-        for cur in range(end, 0, -1):
+    for (let end = 1; end < n; end++) {
+        for (let cur = end; cur > 0; cur--) {}
             if (ary[cur-1] > ary[cur]):
                 ary[cur-1], ary[cur] = ary[cur], ary[cur-1]
     }
