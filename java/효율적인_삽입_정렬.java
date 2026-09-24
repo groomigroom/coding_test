@@ -1,8 +1,10 @@
+import java.util.Arrays; 
+
 public class Main {
     public static int[] insertionSort(int[] ary) {
       int n = ary.length;
       for(int end = 1; end < n; end++) {
-        for(int cur = end; cur > 0; end--) {
+        for(int cur = end; cur > 0; cur--) {
           if(ary[cur-1] > ary[cur]) {
             int tmp = ary[cur-1];
             ary[cur-1] = ary[cur];
@@ -17,9 +19,9 @@ public class Main {
       int[] dataAry = {188, 162, 168, 120, 50, 150, 177, 105};
 
       //정렬 전
-      System.out.println(dataAry);
+      System.out.println(Arrays.toString(dataAry));
       dataAry = insertionSort(dataAry);
-      System.out.println(dataAry);
+      System.out.println(Arrays.toString(dataAry));
     }
 }
 
