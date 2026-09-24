@@ -1,9 +1,10 @@
 const insertionSort = (ary) => {
-    n = len(ary)
-    for end in range(1, n):
+    const n = ary.length;
+    for (let end; end < n; end++) {
         for cur in range(end, 0, -1):
             if (ary[cur-1] > ary[cur]):
                 ary[cur-1], ary[cur] = ary[cur], ary[cur-1]
+    }
 
     return ary
 };
