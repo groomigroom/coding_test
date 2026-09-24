@@ -1,6 +1,11 @@
 public class Main {
     public int[] insertionSort(int[] ary) {
       int n = ary.length;
+      for(int end = 1; end < n; end++) {
+        for(int cur = end; cur > 0; end--) {
+          if(ary[cur-1] > ary[cur])
+        }
+      }
     } 
 
     public static void main(String[] args) {
