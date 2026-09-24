@@ -12,20 +12,18 @@ const insertionSort = (ary) => {
     return ary
 };
 
-let dataAry = [188, 162, 168, 120, 50, 150, 177, 105]
+let dataAry = [188, 162, 168, 120, 50, 150, 177, 105];
 
-#정렬 전
-print(dataAry)
-dataAry = insertionSort(dataAry)
-#정렬 후
-print(dataAry)
+//정렬 전
+console.log(dataAry);
+dataAry = insertionSort(dataAry);
+//정렬 후
+console.log(dataAry);
 
-"""
+/*
 
 [188, 162, 168, 120, 50, 150, 177, 105]
 [50, 105, 120, 150, 162, 168, 177, 188]
 
 
-"""
-
-console.log("Hello, World!");
+*/
