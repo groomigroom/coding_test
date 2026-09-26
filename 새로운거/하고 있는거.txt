@@ -11,6 +11,9 @@ class Solution {
                 
             }
         }
+        for(int j = 0; j < players.length; j++) {
+            answer[j] = players[j];
+        }
         return answer;
     }
 }
