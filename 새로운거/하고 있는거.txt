@@ -1,7 +1,6 @@
-class Solution {
-    public int solution(int n, String control) {
-        int answer = 0;
-        for (int i = 0; i < control.length(); i++) {
+def solution(n, control):
+    answer = 0
+    for i in range (0, len(control)) {
         switch (control.charAt(i)) {
             case 'w':
                 n++;
@@ -18,6 +17,4 @@ class Solution {
         }
     }
         answer = n;
-        return answer;
-    }
-}
+    return answer
