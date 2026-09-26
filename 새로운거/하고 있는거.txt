@@ -1,7 +1,5 @@
-function solution(number, n, m) {
+function solution(n, control) {
     var answer = 0;
-    if (number % n == 0 && number % m == 0) {
-            answer = 1;
-        }
+    for (let i = 0; i < control.length; i++) {}
     return answer;
 }
