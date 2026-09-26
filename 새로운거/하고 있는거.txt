@@ -1,14 +1,23 @@
-function solution(n, control) {
-    var answer = 0;
-    for (let i = 0; i < control.length; i++) {
-        switch (control[i]) {
+class Solution {
+    public int solution(int n, String control) {
+        int answer = 0;
+        for (int i = 0; i < control.length(); i++) {
+        switch (control.charAt(i)) {
             case "w":
                 n++;
                 break;
             case "s":
                 n--;
                 break;
+            case "d":
+                n += 10;
+                break;
+            case "a":
+                n -= 10;
+                break;
         }
     }
-    return answer;
+        answer = n;
+        return answer;
+    }
 }
