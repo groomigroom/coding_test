@@ -7,19 +7,19 @@ class Solution {
         } else {
             answer = 0;
         }
-    } else if (ineq == "<" && eq == "=") {
+    } else if (ineq.equals("<") && eq.equals("=")) {
         if (n <= m) {
             answer = 1;
         } else {
             answer = 0;
         }
-    } else if (ineq == ">" && eq == "!") {
+    } else if (ineq.equals(">") && eq.equals("!")) {
         if (n > m) {
             answer = 1;
         } else {
             answer = 0;
         }
-    }else if (ineq == "<" && eq == "!") {
+    }else if (ineq.equals("<") && eq.equals("!")) {
         if (n < m) {
             answer = 1;
         } else {
