@@ -1,6 +1,10 @@
-def solution(str1, str2):
-    answer = ''
-    for i in range(len(str1)):
-        answer += str1[i]
-        answer += str2[i]
-    return answer
+class Solution {
+    public int solution(int number, int n, int m) {
+        int answer = 0;
+        if (number % n == 0 && number % m == 0) {
+            answer = 1;
+        }
+        
+        return answer;
+    }
+}
