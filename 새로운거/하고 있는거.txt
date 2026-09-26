@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public String[] solution(String[] players, String[] callings) {
         String[] answer = {};
@@ -15,5 +17,12 @@ class Solution {
             answer[j] = players[j];
         }
         return answer;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+      String[] players = {"김구름", "김멍멍", "치와와", "비숑", "구름구름"};
+      System.out.println("Hello, World!");
     }
 }
