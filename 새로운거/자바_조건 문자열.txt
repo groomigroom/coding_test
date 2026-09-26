@@ -29,3 +29,12 @@ class Solution {
         return answer;
     }
 }
+
+
+-------------------------------------------
+
+
+2
+3
+def solution(ineq, eq, n, m):
+    return int(eval(str(n)+ineq+eq.replace('!', '')+str(m)))
