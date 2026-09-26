@@ -24,7 +24,7 @@ public class Main {
     public static void main(String[] args) {
       String[] players = {"김구름", "김멍멍", "치와와", "비숑", "구름구름"};
       String[] callings = {"치와와", "치와와", "김멍멍", "김멍멍"};
-      
+      Solution u = new Solution();
       System.out.println("Hello, World!");
     }
 }
