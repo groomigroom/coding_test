@@ -2,30 +2,48 @@ import java.util.*;
 
 class Solution {
     public String[] solution(String[] players, String[] callings) {
-        String[] answer = {};
-        for(int i = 0; i < callings.length; i++) {
-            for(int k = 0; k < players.length; k++) {
-                if(players[k] == callings[i]) {
-                    String tmp = players[k-1];
-                    players[k-1] = players[k];
-                    players[k] = tmp;
-                }
-                
-            }
+        // 1. answer 배열을 players 배열과 같은 크기로 생성합니다.
+        String[] answer = new String[players.length];
+        
+        // 2. 선수의 이름과 현재 등수(인덱스)를 빠르게 찾기 위해 HashMap을 사용합니다.
+        Map<String, Integer> playerMap = new HashMap<>();
+        for (int i = 0; i < players.length; i++) {
+            playerMap.put(players[i], i);
         }
-        for(int j = 0; j < players.length; j++) {
+        
+        // 3. 호명된 선수의 등수를 올리고 앞 선수와 자리를 바꿉니다.
+        for (String calling : callings) {
+            int currentIdx = playerMap.get(calling); // 호명된 선수의 현재 등수
+            int frontIdx = currentIdx - 1;           // 앞 선수의 등수
+            
+            String frontPlayer = players[frontIdx];  // 앞 선수의 이름
+            
+            // players 배열에서 두 선수의 위치를 변경
+            players[frontIdx] = calling;
+            players[currentIdx] = frontPlayer;
+            
+            // HashMap에서도 두 선수의 등수(인덱스)를 갱신
+            playerMap.put(calling, frontIdx);
+            playerMap.put(frontPlayer, currentIdx);
+        }
+        
+        // 4. 최종 결과를 answer에 복사합니다.
+        for (int j = 0; j < players.length; j++) {
             answer[j] = players[j];
         }
+        
         return answer;
     }
 }
 
 public class Main {
     public static void main(String[] args) {
-      String[] players = {"김구름", "김멍멍", "치와와", "비숑", "구름구름"};
-      String[] callings = {"치와와", "치와와", "김멍멍", "김멍멍"};
-      Solution u = new Solution();
-      String[] answer = u.solution(players, callings);
-      System.out.println("Hello, World!");
+        String[] players = {"김구름", "김멍멍", "치와와", "비숑", "구름구름"};
+        String[] callings = {"치와와", "치와와", "김멍멍", "김멍멍"};
+        Solution u = new Solution();
+        String[] answer = u.solution(players, callings);
+        
+        // 결과 출력 코드 추가
+        System.out.println(Arrays.toString(answer)); // [치와와, 김멍멍, 김구름, 비숑, 구름구름]
     }
 }
