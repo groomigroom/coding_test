@@ -4,6 +4,10 @@ function solution(n, control) {
         switch (control[i]) {
             case "w":
                 n++;
+                break;
+            case "s":
+                n--;
+                break;
         }
     }
     return answer;
