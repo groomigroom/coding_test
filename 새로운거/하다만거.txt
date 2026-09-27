@@ -1,0 +1,6 @@
+function solution(a, b) {
+    let answer = 0;
+    let str = "";
+    let strab = str + a + b;
+    return answer;
+}
