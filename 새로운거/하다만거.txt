@@ -1,14 +1,10 @@
-class Solution {
-    public int solution(int a, int b) {
-        int answer = 0;
-        String str = "";
-        int intab = Integer.parseInt(str + a + b);
-        int intba = Integer.parseInt(str + b + a);
-        if (intab > intba) {
-            answer = intab;
-        } else {
-            answer = intba;
-        }
-        return answer;
-    }
-}
+def solution(a, b):
+    answer = 0
+    str = ""
+    intab = int(str + str(a) + str(b))
+    intba = int(str + str(b) + str(a))
+    if intab > intba:
+        answer = intab
+    else:
+        answer = intba
+    return answer
