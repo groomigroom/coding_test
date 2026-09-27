@@ -1,6 +1,18 @@
+
+2
+3
+4
+5
+6
+7
+8
+9
+10
 def solution(a, b, c):
-    answer = 0
-    if a != b and b != c and c != a:
-        answer = a + b + c
-    elif ()
-    return answer
+    check=len(set([a,b,c]))
+    if check==1:
+        return 3*a*3*(a**2)*3*(a**3)
+    elif check==2:
+        return (a+b+c)*(a**2+b**2+c**2)
+    else:
+        return (a+b+c)
