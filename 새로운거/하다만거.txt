@@ -1,12 +1,14 @@
-function solution(a, b) {
-    let answer = 0;
-    let str = "";
-    let intab = parseInt(str + a + b);
-    let intba = parseInt(str + b + a);
-    if (intab > intba) {
-        answer = intab;
-    } else {
-        answer = intba;
+class Solution {
+    public int solution(int a, int b) {
+        int answer = 0;
+        String str = "";
+        int intab = Integer.parseInt(str + a + b);
+        int intba = Integer.parseInt(str + b + a);
+        if (intab > intba) {
+            answer = intab;
+        } else {
+            answer = intba;
+        }
+        return answer;
     }
-    return answer;
 }
