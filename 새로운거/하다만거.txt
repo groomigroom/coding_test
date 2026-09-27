@@ -3,6 +3,10 @@ function solution(a, b) {
     let str = "";
     let intab = parseInt(str + a + b);
     let intba = parseInt(str + b + a);
-    if ()
+    if (intab > intba) {
+        answer = intab;
+    } else {
+        answer = intba;
+    }
     return answer;
 }
