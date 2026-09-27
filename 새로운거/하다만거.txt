@@ -16,3 +16,6 @@ def solution(a, b, c):
         return (a+b+c)*(a**2+b**2+c**2)
     else:
         return (a+b+c)
+
+
+https://school.programmers.co.kr/learn/courses/30/lessons/181930
