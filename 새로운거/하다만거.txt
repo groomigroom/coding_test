@@ -1,6 +1,8 @@
 function solution(a, b) {
     let answer = 0;
     let str = "";
-    let strab = str + a + b;
+    let intab = parseInt(str + a + b);
+    let intba = parseInt(str + b + a);
+    if ()
     return answer;
 }
