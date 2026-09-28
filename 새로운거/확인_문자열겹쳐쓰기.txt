@@ -1,0 +1,44 @@
+class Solution {
+    public String solution(String my_string, String overwrite_string, int s) {
+        String answer = "";
+        for(int i = 0; i < my_string.length(); i++) {
+            if (i >= s && i < overwrite_string.length()) {
+                answer += overwrite_string.charAt(i);
+            } else {     
+                answer += my_string.charAt(i);
+                }  
+        }
+        
+        return answer;
+    }
+}
+
+
+https://school.programmers.co.kr/learn/courses/30/lessons/181943
+
+
+
+import java.util.*;
+
+class Solution {
+    public String solution(String my_string, String overwrite_string, int s) {
+        String answer = "";
+        for(int i = 0; i < my_string.length(); i++) {
+            if (i >= s && i < overwrite_string.length()) {
+                answer += overwrite_string.charAt(i);
+            } else {     
+                answer += my_string.charAt(i);
+                }  
+        }
+        
+        return answer;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+      Solution s = new Solution();
+      String ss = s.solution("kimgroom", "hhhgg", 3);
+      System.out.println(ss);
+    }
+}
