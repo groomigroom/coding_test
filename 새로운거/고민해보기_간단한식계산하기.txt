@@ -1,0 +1,26 @@
+import java.util.*;
+
+class Solution {
+    public int solution(String binomial) {
+        int answer = 0;
+        for(int i = 0; i < binomial.length(); i++) {
+            if(Character.isDigit(binomial.charAt(i))) {
+                System.out.println("구름이");
+            }
+        } 
+        return answer;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+      Solution u = new Solution();
+      u.solution("2 + 3");
+      System.out.println("Hello, World!");
+    }
+}
+
+
+https://school.programmers.co.kr/learn/courses/30/lessons/181865?language=java
+
+

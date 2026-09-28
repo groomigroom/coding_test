@@ -1,9 +1,0 @@
-class Solution {
-    public int solution(String binomial) {
-        int answer = 0;
-        for(int i = 0; i < binomial.length(); i++) {
-            if(binomial.charAt(i).isDigit())
-        } 
-        return answer;
-    }
-}
