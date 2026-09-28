@@ -1,0 +1,19 @@
+def solution(l, r):
+    answer = []
+    i = l
+    while (i <= r):
+        if (i % 5 == 0):
+            answer.append(i)
+        
+        i += 1
+        
+    if len(answer) == 0:
+        answer.append(-1)
+
+    return answer
+
+
+------=-=-=-=-=-=-=
+
+
+https://school.programmers.co.kr/learn/courses/30/lessons/181921
