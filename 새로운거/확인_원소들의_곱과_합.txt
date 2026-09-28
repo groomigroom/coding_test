@@ -1,0 +1,15 @@
+def solution(num_list):
+    answer = 0
+    gop = 0
+    hap_ze = 0
+    for i in range (0, len(num_list)):
+        gop *= i
+        hap_ze += i
+    if gop < hap_ze**2:
+        answer = 1
+    else:
+        answer = 0
+    return answer
+
+
+  https://school.programmers.co.kr/learn/courses/30/lessons/181929
