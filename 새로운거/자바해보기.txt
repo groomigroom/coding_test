@@ -5,8 +5,12 @@ import java.util.*;
 
 class Solution {
     public int[] solution(int[] num_list) {
-        List<Integer> list = Arrays.stream(arr)
+        List<Integer> nnlist = Arrays.stream(num_list)
                             .boxed().collect(Collectors.toCollection(ArrayList::new));
+        
+        if (nnlist[nnlist.size() -1] > nnlist[nnlist.size() -2]) {
+
+        }
 
         return answer;
     }
