@@ -2,7 +2,17 @@ def solution(arr, n):
     answer = []
     if len(arr)%2 == 1:
         for i in range(len(arr)):
-            if 
+            if i%2 == 0:
+                answer[i] = arr[i] + n
+            else:
+                answer[i] = arr[i]
+    else:
+        for i in range(len(arr)):
+            if i%2 == 1:
+                answer[i] = arr[i] + n
+            else:
+                answer[i] = arr[i]
+                
     return answer
 
 
