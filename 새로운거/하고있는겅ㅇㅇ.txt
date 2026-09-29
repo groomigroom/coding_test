@@ -1,7 +1,10 @@
 -- 코드를 입력하세요
 SELECT a.TITLE, a.BOARD_ID, b.REPLY_ID, b.WRITER_ID, b.CONTENTS, b.CREATE_DATE
-from USED_GOODS_BOARD
-where b.CREATED_DATE between "2022-10-01" and "2022-10-31";
+from USED_GOODS_BOARD a
+join USED_GOODS_REPLY b
+on a.BOARD_ID = b.BOARD_ID
+where b.CREATED_DATE between "2022-10-01" and "2022-10-31"
+order by b.CREATE_DATE asc, a.TITLE desc;
 
 
 https://school.programmers.co.kr/learn/courses/30/lessons/164673
