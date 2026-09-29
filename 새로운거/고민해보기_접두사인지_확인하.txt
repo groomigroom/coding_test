@@ -1,3 +1,5 @@
+import java.math.BigInteger;
+
 class Solution {
     public int solution(String my_string, String is_prefix) {
         int answer = 0;
@@ -15,3 +17,15 @@ class Solution {
         return answer;
     }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        Solution u = new Solution();
+        System.out.println(u.solution("kimgroom", "kim"));
+    }
+}
+
+
+--------------------
+
+https://school.programmers.co.kr/learn/courses/30/lessons/181906?language=java
