@@ -9,13 +9,17 @@ class Solution {
           i++;
           answer = i;
         }
+        //first_index = i - 1;
+        //System.out.println(first_index);
+        binomial = binomial.subsring(0, i);
+        System.out.println(binomial);
         return answer;
     }
 }
 
 public class Main {
     public static void main(String[] args) {
-        String binomial = "3 + 3";
+        String binomial = "32 + 3";
         Solution u = new Solution();
         System.out.println(u.solution(binomial));
     }
