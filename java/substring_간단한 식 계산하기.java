@@ -3,7 +3,6 @@ import java.util.*;
 class Solution {
     public int solution(String binomial) {
         int answer = 0;
-        int first_index;
         int i = 0;
         while(binomial.charAt(i) != ' ') {        
           i++;
