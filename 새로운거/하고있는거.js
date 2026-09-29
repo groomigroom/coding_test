@@ -3,8 +3,12 @@ let query = [4, 1, 2];
 
 for (let i = 0; i < query.length; i++) {
     if (i % 2 === 0) {
-        while
-    }
+        while (arr.length > query[i] + 1) {
+            arr.pop();
+        } 
+    }else {
+            arr.splice(0, query[i]); 
+        }
 }
 
-console.log("Hello, World!");
+console.log(arr);
