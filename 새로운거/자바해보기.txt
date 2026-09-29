@@ -6,7 +6,7 @@ import java.util.*;
 class Solution {
     public int[] solution(int[] num_list) {
         List<Integer> list = Arrays.stream(arr)
-                            .boxed().collect(Collectors)
+                            .boxed().collect(Collectors.toCollection(ArrayList::new));
 
         return answer;
     }
