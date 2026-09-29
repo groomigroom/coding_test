@@ -1,12 +1,13 @@
 https://school.programmers.co.kr/learn/courses/30/lessons/181927?language=java
 
 
-
 import java.util.*;
 
 class Solution {
     public int[] solution(int[] num_list) {
-        int[] answer = {};
+        List<Integer> list = Arrays.stream(arr)
+                            .boxed().collect(Collectors)
+
         return answer;
     }
 }
