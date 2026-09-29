@@ -27,7 +27,7 @@ public class Main {
             }
         }
         int[] answer = list.stream().mapToInt(Integer::intValue).toArray();
-    
+        System.out.println(Arrays.toString(answer));
     }
 }
 
