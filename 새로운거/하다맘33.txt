@@ -22,6 +22,10 @@ class Solution {
 public class Main {
     public static void main(String[] args) {
       Solution s = new Solution();
-      int[] numbers = 
+      int[] numbers = {1};
+      int[] our_score = {100};
+      int[] score_list = {100, 80, 90, 84, 20};
+      String[] ss = s.solution(numbers, our_score, score_list);
+      System.out.println(ss.toString());
     }
 }
