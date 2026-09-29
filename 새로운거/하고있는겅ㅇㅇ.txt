@@ -1,7 +1,7 @@
 -- 코드를 입력하세요
-SELECT a.TITLE, a.BOARD_ID, b.REPLY_ID, WRITER_ID b
+SELECT a.TITLE, a.BOARD_ID, b.REPLY_ID, b.WRITER_ID, b.CONTENTS, b.CREATE_DATE
 from USED_GOODS_BOARD
-where CREATED_DATE between "2022-10-01" and "2022-10-31";
+where b.CREATED_DATE between "2022-10-01" and "2022-10-31";
 
 
 https://school.programmers.co.kr/learn/courses/30/lessons/164673
