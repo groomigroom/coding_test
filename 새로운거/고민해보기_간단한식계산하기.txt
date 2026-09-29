@@ -24,3 +24,5 @@ public class Main {
 https://school.programmers.co.kr/learn/courses/30/lessons/181865?language=java
 
 
+ㅡㅡㅡㅡㅡㅡ>
+for문으로 은근 제한 걸어서 ....
