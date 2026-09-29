@@ -7,11 +7,17 @@ class Solution {
         int i = 0;
         while(binomial.charAt(i) != ' ') {        
           i++;
-          answer = i;
         }
         int first_number = Integer.parseInt(binomial.substring(0, i));
         binomial = binomial.substring(i + 1, binomial.length());
-        System.out.println(binomial);
+        
+        int j = 0;
+
+        while(binomial.charAt(j) != ' ') {        
+          j++;
+          answer = j;
+        }
+
         return answer;
     }
 }
