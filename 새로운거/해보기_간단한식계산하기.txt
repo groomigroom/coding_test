@@ -27,3 +27,47 @@ https://school.programmers.co.kr/learn/courses/30/lessons/181865?language=java
 
 ㅡㅡㅡㅡㅡㅡ>
 for문으로 은근 제한 걸어서 ....
+
+
+자바에서 문자열을 원하는 인덱스 부분까지 자를 때는 String.substring() 메서드를 사용합니다. [1, 2] 
+이 메서드는 크게 두 가지 방식으로 사용할 수 있습니다.
+## 1. 시작 인덱스부터 끝까지 자르기
+
+* 
+* 문법: substring(int beginIndex)
+* 설명: 지정한 beginIndex부터 문자열의 마지막 글자까지 잘라냅니다. (인덱스는 0부터 시작합니다.) [3, 4, 5] 
+* 
+
+String text = "HelloWorld";
+String result = text.substring(5); // 5번째 인덱스('W')부터 끝까지 자름
+
+System.out.println(result); // 출력: World
+
+## 2. 시작 인덱스부터 원하는 인덱스 직전까지 자르기
+
+* 
+* 문법: substring(int beginIndex, int endIndex)
+* 설명: beginIndex부터 endIndex - 1 인덱스까지의 문자열을 반환합니다. 즉, 두 번째 인자로 넣은 인덱스의 문자는 포함되지 않습니다 (Exclusive). [2, 4, 5] 
+* 
+
+String text = "HelloWorld";// 인덱스 0('H')부터 5('W') 직전인 4('o')까지 자름
+String result = text.substring(0, 5); 
+
+System.out.println(result); // 출력: Hello
+
+------------------------------
+## ⚠️ 주의할 점
+
+* 
+* 문자열 범위를 벗어난 인덱스를 인자로 넣거나, beginIndex가 endIndex보다 크면 StringIndexOutOfBoundsException 에러가 발생하므로 주의해야 합니다.
+* 만약 특정 문자(예: 공백이나 콤마)를 기준으로 잘라내고 싶다면, [String.indexOf()](https://chobo24.tistory.com/entry/JAVA%EC%9E%90%EB%B0%94-%EB%AC%B8%EC%9E%90%EC%97%B4-%EC%9E%90%EB%A5%B4%EA%B8%B0-%EB%B6%84%EB%A6%AC-%EC%B0%BE%EA%B8%B0-%EC%B6%94%EC%B6%9C-substring-Split-indexOf-charAt) 메서드로 인덱스를 먼저 찾은 뒤 substring()에 대입하거나, [String.split()](https://hianna.tistory.com/964) 메서드를 활용하는 것이 좋습니다. [2, 4, 6] 
+* 
+
+자르려고 하는 원본 문자열의 형태나 특정 조건(예: 특정 단어 직전까지 자르기 등)을 알려주시면 상황에 맞는 정확한 예제 코드를 작성해 드릴 수 있습니다. 어떤 문자열을 자르고 싶으신가요?
+
+[1] [https://hianna.tistory.com](https://hianna.tistory.com/964)
+[2] [https://hianna.tistory.com](https://hianna.tistory.com/534)
+[3] [https://shae05.tistory.com](https://shae05.tistory.com/entry/Java-%EB%AC%B8%EC%9E%90%EC%97%B4-%EC%9E%90%EB%A5%B4%EA%B8%B0-substring-%EC%82%AC%EC%9A%A9%EB%B2%95)
+[4] [https://chobo24.tistory.com](https://chobo24.tistory.com/entry/JAVA%EC%9E%90%EB%B0%94-%EB%AC%B8%EC%9E%90%EC%97%B4-%EC%9E%90%EB%A5%B4%EA%B8%B0-%EB%B6%84%EB%A6%AC-%EC%B0%BE%EA%B8%B0-%EC%B6%94%EC%B6%9C-substring-Split-indexOf-charAt)
+[5] [https://yeolco.tistory.com](https://yeolco.tistory.com/251)
+[6] [https://dreamcoding.tistory.com](https://dreamcoding.tistory.com/22)
