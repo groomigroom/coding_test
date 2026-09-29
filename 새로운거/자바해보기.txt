@@ -8,7 +8,7 @@ class Solution {
         List<Integer> nnlist = Arrays.stream(num_list)
                             .boxed().collect(Collectors.toCollection(ArrayList::new));
         
-        if (nnlist[nnlist.size() -1] > nnlist[nnlist.size() -2]) {
+        if (nnlist.get(nnlist.size() -1) > nnlist.get(nnlist.size() -2)) {
 
         }
 
