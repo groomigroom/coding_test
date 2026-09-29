@@ -10,7 +10,11 @@ class Solution {
         
         if (nnlist.get(nnlist.size() -1) > nnlist.get(nnlist.size() -2)) {
             nnlist.add(nnlist.get(nnlist.size() -1) - nnlist.get(nnlist.size() -2));
+        } else {
+          nnlist.add(nnlist.get(nnlist.size() - 1) * 2);
         }
+
+        int[] answer = nnlist.stream().mapToInt(Integer::intValue).toArray();
 
         return answer;
     }
