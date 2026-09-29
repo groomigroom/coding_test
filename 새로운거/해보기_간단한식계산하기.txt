@@ -9,9 +9,8 @@ class Solution {
           i++;
           answer = i;
         }
-        //first_index = i - 1;
-        //System.out.println(first_index);
-        binomial = binomial.subsring(0, i);
+        int first_number = Integer.parseInt(binomial.substring(0, i));
+        binomial = binomial.substring(i + 1, binomial.length());
         System.out.println(binomial);
         return answer;
     }
