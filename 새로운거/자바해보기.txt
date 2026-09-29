@@ -1,7 +1,7 @@
 https://school.programmers.co.kr/learn/courses/30/lessons/181927?language=java
 
-
 import java.util.*;
+import java.util.stream.Collectors;
 
 class Solution {
     public int[] solution(int[] num_list) {
@@ -9,7 +9,7 @@ class Solution {
                             .boxed().collect(Collectors.toCollection(ArrayList::new));
         
         if (nnlist.get(nnlist.size() -1) > nnlist.get(nnlist.size() -2)) {
-
+            nnlist.add(nnlist.get(nnlist.size() -1) - nnlist.get(nnlist.size() -2));
         }
 
         return answer;
