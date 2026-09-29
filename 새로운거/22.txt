@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Solution {
     public int[] solution(int[] arr, int n) {
         int[] answer = new int[arr.length];
@@ -14,7 +12,9 @@ class Solution {
         } else {
             for (int i = 0; i < arr.length; i++) {
                 if (i % 2 == 1) {
-                    answer[i] += n;
+                    answer[i] = arr[i] + n;
+                } else {
+                  answer[i] = arr[i];
                 }
             }
         }
@@ -31,5 +31,7 @@ public class Main {
         System.out.println(Arrays.toString(arr2));
     }
 }
+
+자바는 통과됨
 
 https://school.programmers.co.kr/learn/courses/30/lessons/181854
