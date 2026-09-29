@@ -1,8 +1,14 @@
 class Solution {
-    public String solution(String myString) {
-        String answer = "";
-        for(int i = 0; i<myString.length(); i++) {
-            
+    public int[] solution(int[] arr, int n) {
+        int[] answer = new int[arr.length];
+        if (answer.length % 2 == 1) {
+            for(int i = 0; i < arr.length; i++) {
+                if (i % 2 == 0) {
+                    answer[i] += 1;
+                }
+            }
+        } else {
+            for (int )
         }
         return answer;
     }
