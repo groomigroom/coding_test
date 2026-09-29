@@ -15,11 +15,10 @@ class Solution {
 
         while(binomial.charAt(j) != ' ') {        
           j++;
-          answer = j;
         }
         char plMiGop = binomial.charAt(0);
-        System.out.println(plMiGop);
-
+        int second_number = Integer.parseInt(binomial.substring(j+1, binomial.length()));
+        System.out.println(second_number);
         return answer;
     }
 }
