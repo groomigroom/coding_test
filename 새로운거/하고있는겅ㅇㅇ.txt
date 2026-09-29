@@ -1,5 +1,5 @@
 -- 코드를 입력하세요
-SELECT TITLE
+SELECT a.TITLE, a.BOARD_ID, b.REPLY_ID, WRITER_ID b
 from USED_GOODS_BOARD
 where CREATED_DATE between "2022-10-01" and "2022-10-31";
 
