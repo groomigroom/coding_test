@@ -31,13 +31,35 @@ public class Main {
     }
 }
 
-/*
+
+----------------------------------------------------------------------
+
+import java.util.*;
+import java.util.stream.Collectors;
+
 class Solution {
     public int[] solution(int[] arr, int[] query) {
-        int[] answer = {};
+        // 💡 1. int[] 배열을 List<Integer> 로 올바르게 변환하는 방법 (Stream 활용)
+        List<Integer> list = Arrays.stream(arr)
+                                   .boxed()
+                                   .collect(Collectors.toCollection(ArrayList::new));
+
+        
+        for (int i = 0; i < query.length; i++) {
+            if (i % 2 == 0) {
+                // 뒤에서부터 지워야 인덱스가 꼬이지 않습니다.
+                while (list.size() > query[i] + 1) {
+                    list.remove(list.size() - 1);
+                }
+            } else {
+                // 앞부분을 지정된 횟수만큼 반복해서 지워줍니다.
+              for (int j = 0; j < query[i]; j++) {
+                  list.remove(0);
+              }
+            }
+        }
+        int[] answer = list.stream().mapToInt(Integer::intValue).toArray();
         return answer;
     }
 }
-*/
 
-https://school.programmers.co.kr/learn/courses/30/lessons/181893?language=java
