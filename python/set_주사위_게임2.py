@@ -1,13 +1,3 @@
-
-2
-3
-4
-5
-6
-7
-8
-9
-10
 def solution(a, b, c):
     check=len(set([a,b,c]))
     if check==1:
@@ -17,5 +7,3 @@ def solution(a, b, c):
     else:
         return (a+b+c)
 
-
-https://school.programmers.co.kr/learn/courses/30/lessons/181930
