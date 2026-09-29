@@ -3,6 +3,12 @@ import java.util.*;
 class Solution {
     public int solution(String binomial) {
         int answer = 0;
+        for(int i = 0; i < binomial.length(); i++) {
+          if (binomial.charAt(i) == ' ') {
+            answer = 1;
+            break;
+          }
+        }
         return answer;
     }
 }
@@ -11,7 +17,7 @@ public class Main {
     public static void main(String[] args) {
         String binomial = "3 + 3";
         Solution u = new Solution();
-
+        System.out.println(u.solution(binomial));
     }
 }
 
