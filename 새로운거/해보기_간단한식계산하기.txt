@@ -4,11 +4,10 @@ class Solution {
     public int solution(String binomial) {
         int answer = 0;
         int first_index;
-        while(binomial.charAt(i) == ' ') {
-          if (binomial.charAt(i) == ' ') {
-            first_index = i - 1;
-            break;
-          }
+        int i = 0;
+        while(binomial.charAt(i) != ' ') {        
+          i++;
+          answer = i;
         }
         return answer;
     }
