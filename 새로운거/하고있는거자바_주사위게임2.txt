@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        int a = 1;
+        int b = 2;
+        int c = 1;
+        Set<Integer> set = new HashSet<>();
+        set.add(a);
+        set.add(b);
+        set.add(c);
+    }
+}
+
+
+파이썬만함
