@@ -1,0 +1,10 @@
+class Solution {
+    public String solution(String a, String b) {
+        String answer = "";
+        int aa = Integer.parseInt(a);
+        int bb = Integer.parseInt(b);
+        int ans = aa + bb;
+        answer += ans;
+        return answer;
+    }
+}
