@@ -17,6 +17,8 @@ class Solution {
           j++;
           answer = j;
         }
+        char plMiGop = binomial.charAt(0);
+        System.out.println(plMiGop);
 
         return answer;
     }
