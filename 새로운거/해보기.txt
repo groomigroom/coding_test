@@ -1,1 +1,20 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        int[] arr = {0, 1, 2, 3, 4, 5};
+        int[] query = {4, 1, 2};
+    }
+}
+
+/*
+class Solution {
+    public int[] solution(int[] arr, int[] query) {
+        int[] answer = {};
+        return answer;
+    }
+}
+*/
+
+
 https://school.programmers.co.kr/learn/courses/30/lessons/181893?language=java
