@@ -18,7 +18,15 @@ class Solution {
         }
         char plMiGop = binomial.charAt(0);
         int second_number = Integer.parseInt(binomial.substring(j+1, binomial.length()));
-        System.out.println(second_number);
+        
+        if (plMiGop == '+') {
+            answer = first_number + second_number;
+        } else if (plMiGop == '-') {
+            answer = first_number - second_number;
+        } else {
+          answer = first_number * second_number;
+        }
+
         return answer;
     }
 }
@@ -30,7 +38,6 @@ public class Main {
         System.out.println(u.solution(binomial));
     }
 }
-
 https://school.programmers.co.kr/learn/courses/30/lessons/181865?language=java
 
 
