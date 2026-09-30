@@ -10,16 +10,13 @@ def solution(code):
             if code[idx] != '1' and idx % 2 == 1:
                 answer += code[idx]
   
-    #     if (code[idx] === '1') {
-    #         if (mode === 0) {
-    #             mode = 1;
-    #         } else {
-    #             mode = 0;
-    #         }
-    #     }
-    # }
-    # if (answer === "") {
-    #     return "EMPTY";
-    # }
-        
+        if code[idx] == '1':
+            if mode == 0:
+                mode = 1
+            else:
+                mode = 0
+            
+        if answer == "":
+            return "EMPTY"
+
     return answer
