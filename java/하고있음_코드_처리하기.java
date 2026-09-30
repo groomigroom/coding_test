@@ -4,7 +4,7 @@ class Solution {
     public String solution(String code) {
         String answer = "";
         for (int idx = 0; idx < code.length(); idx++) {
-          int mode = 0;
+          int mode;
 
           if (mode == 0) {
             if(code.charAt(idx) != '1' && idx % 2 == 0) {
