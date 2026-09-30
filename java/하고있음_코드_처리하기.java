@@ -3,7 +3,10 @@ import java.util.*;
 class Solution {
     public String solution(String code) {
         String answer = "";
-        for (int i = 0; i < code.length(); i++) {}
+        for (int idx = 0; idx < code.length(); idx++) {
+          int mode = 0;
+          if (code.charAt(idx) == '1') {}
+        }
         return answer;
     }
 }
