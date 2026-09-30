@@ -16,7 +16,7 @@ def solution(code):
             else:
                 mode = 0
             
-        if answer == "":
-            return "EMPTY"
+    if answer == "":
+        return "EMPTY"
 
     return answer
