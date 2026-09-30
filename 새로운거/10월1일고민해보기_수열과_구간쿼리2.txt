@@ -5,6 +5,7 @@ class Solution {
         int[] answer = {};
         for(int i = 0; i < queries.length; i++) {
             for (int k = 0; k < arr.length; k++) {
+                int new = 0;
                 
             }
         }
@@ -17,7 +18,6 @@ public class Main {
       System.out.println("Hello, World!");
     }
 }
-
 
 
 https://school.programmers.co.kr/learn/courses/30/lessons/181923
