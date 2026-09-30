@@ -6,6 +6,18 @@ function solution(arr, queries) {
         let k = queries[i][2];
 
         let minVal = 10000001;
+
+        for (let idx = s; idx <= e; idx++) {
+            if (arr[idx] > k && arr[idx] < minVal) {
+                minVal = arr[idx];
+            }
+        }
+
+        if (minVal === 10000001) {
+            answer.push(-1);
+        } else {
+            answer.push(minVal);
+        }
     }
     return answer;
 }
