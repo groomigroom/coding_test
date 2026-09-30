@@ -40,6 +40,10 @@ class Solution {
 
 public class Main {
     public static void main(String[] args) {
+      String[] storage = {"pencil", "pencil", "pencil", "book"};
+      int[] num = {2, 4, 3, 1};
+      Solution uu = new Solution();
+      String aan = uu.solution(storage, num);
       System.out.println("Hello, World!");
     }
 }
