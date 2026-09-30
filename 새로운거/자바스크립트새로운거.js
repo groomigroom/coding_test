@@ -8,12 +8,17 @@ function solution(binomial) {
     binomial = binomial.substring(i + 1, binomial.length);
 
     let j = 0;
-    console.log(binomial);
+    
+
+    while(binomial[j] != ' ') {
+        j++;
+    }
+    let plMiGop = binomial[0];
+    console.log(plMiGop);
 
     return answer;
 }
 
 let binomial = "32 + 3";
 solution(binomial);
-
 https://school.programmers.co.kr/learn/courses/30/lessons/181865?language=javascript
