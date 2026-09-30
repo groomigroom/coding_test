@@ -6,9 +6,12 @@ function solution(arr, queries) {
         let k = queries[i][2];
         for (let j = s; j < e; j++) {
             if (j % k == 0) {
-                
+                arr[j] += 1;
             }
         }
+    }
+    for(let s = 0; s < arr.length; s++) {
+        answer[s] = arr[s];
     }
     return answer;
 }
