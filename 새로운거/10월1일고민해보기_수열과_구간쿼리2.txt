@@ -11,8 +11,9 @@ class Solution {
                 if (arr[k] > queries[i][2] && arr[k] <= queries[i][1] && arr[k] >= queries[i][0] && arr[k] < newww) {
                     newww = arr[k];
                 }
-
+                neww = newww;
             }
+            answer.add(neww);
             neww = 0;
         }
         return answer;
