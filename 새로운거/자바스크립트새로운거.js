@@ -5,7 +5,11 @@ function solution(binomial) {
         i++;
     }
     let first_numeber = parseInt(binomial.substring(0, i));
-    console.log(first_numeber);
+    binomial = binomial.substring(i + 1, binomial.length);
+
+    let j = 0;
+    console.log(binomial);
+
     return answer;
 }
 
