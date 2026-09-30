@@ -5,7 +5,14 @@ class Solution {
         String answer = "";
         for (int idx = 0; idx < code.length(); idx++) {
           int mode = 0;
-          if (code.charAt(idx) == '1') {}
+          if (code.charAt(idx) == '1') {
+            if (mode == 0) {
+              mode = 1;
+            } else {
+              mode = 0;
+            }
+          }
+
         }
         return answer;
     }
