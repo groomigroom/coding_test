@@ -1,15 +1,23 @@
-https://school.programmers.co.kr/learn/courses/30/lessons/181868
 
 import java.util.*;
 
 class Solution {
     public String[] solution(String my_string) {
-        //String[] answer = {};
-        List<String> strList = new ArrayList<>();
-        while
+        List<String> str_list = new ArrayList<>();
+        String[] answer = {};
         return answer;
     }
 }
 
-for ->
-공백
+public class Main {
+    public static void main(String[] args) {
+      System.out.println("Hello, World!");
+    }
+}
+
+
+
+
+
+
+https://school.programmers.co.kr/learn/courses/30/lessons/181868
