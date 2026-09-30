@@ -4,12 +4,19 @@ def solution(binomial):
     while (binomial[i] != ' '):
         i += 1
     first_number = int(binomial[0:i])
-    binomial = binomial[i+1, len(binomial)]
+    binomial = binomial[i+1:len(binomial)]
 
     j = 0
     while binomial[j] != ' ':
         j += 1
     plMiGop = binomial[0]
-    second_number
+    second_number = int(binomial[j+1:len(binomial)])
+
+    if plMiGop == '+':
+        answer = first_number + second_number
+    elif plMiGop == '-':
+        answer = first_number - second_number
+    else:
+        answer = first_number * second_number
     return answer
 
