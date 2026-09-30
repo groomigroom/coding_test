@@ -5,6 +5,17 @@ class Solution {
         String answer = "";
         for (int idx = 0; idx < code.length(); idx++) {
           int mode = 0;
+
+          if (mode == 0) {
+            if(code.charAt(idx) != '1' && idx % 2 == 0) {
+              answer += code.charAt(idx);
+            }
+          } else {
+            if (code.charAt(idx) != '1' && idx % 2 != 1) {
+              answer += code.charAt(idx);
+            }
+          }
+
           if (code.charAt(idx) == '1') {
             if (mode == 0) {
               mode = 1;
