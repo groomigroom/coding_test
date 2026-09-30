@@ -7,8 +7,9 @@ class Solution {
         String stt;
         for (int i = 0; i < my_string.length(); i++) {
             if(my_string.charAt(i) == ' ') {
-                stt = stt.substring(j, i);
+                stt = my_string.substring(j, i);
                 j = i + 1;
+                str_list.add(stt);
             }
         }
         String[] answer = {};
@@ -24,7 +25,6 @@ public class Main {
       System.out.println(Arrays.toString(solsol));
     }
 }
-
 
 
 
