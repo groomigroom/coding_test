@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Solution {
     public int[] solution(int[] arr, int[][] queries) {
         int[] answer = new int[arr.length];
@@ -13,12 +11,9 @@ class Solution {
               }
             }
         }
+        for (int s = 0; s < arr.length; s++) {
+          answer[s] = arr[s];
+        }
         return answer;
-    }
-}
-
-public class Main {
-    public static void main(String[] args) {
-      System.out.println("Hello, World!");
     }
 }
