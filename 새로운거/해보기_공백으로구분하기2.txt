@@ -12,6 +12,11 @@ class Solution {
                 str_list.add(stt);
             }
         }
+
+        if (j < my_string.length()) {
+            str_list.add(my_string.substring(j));
+        }
+
         String[] answer = str_list.toArray(new String[0]);
         return answer;
     }
@@ -25,6 +30,5 @@ public class Main {
       System.out.println(Arrays.toString(solsol));
     }
 }
-
 
 https://school.programmers.co.kr/learn/courses/30/lessons/181868
