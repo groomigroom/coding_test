@@ -1,0 +1,39 @@
+class Solution {
+    public String[] solution(String my_string) {
+        return my_string.trim().split("\\s+");
+    }
+}
+
+
+------------------------------------------------------------
+
+import java.util.*;
+
+class Solution {
+    public String[] solution(String my_string) {
+        List<String> str_list = new ArrayList<>();
+        int j = 0;
+        
+        for (int i = 0; i < my_string.length(); i++) {
+            if (my_string.charAt(i) == ' ') {
+                String stt = my_string.substring(j, i);
+                
+                // 💡 중요: 잘라낸 단어가 빈 문자열("")이 아닐 때만 리스트에 넣습니다.
+                if (!stt.isEmpty()) {
+                    str_list.add(stt);
+                }
+                j = i + 1; // 다음 단어의 시작점 업데이트
+            }
+        }
+        
+        // 마지막에 남은 단어 처리
+        if (j < my_string.length()) {
+            String lastStr = my_string.substring(j);
+            if (!lastStr.isEmpty()) {
+                str_list.add(lastStr);
+            }
+        }
+        
+        return str_list.toArray(new String[0]);
+    }
+}
