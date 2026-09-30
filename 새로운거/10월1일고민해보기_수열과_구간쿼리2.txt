@@ -19,6 +19,7 @@ class Solution {
             answer.add(neww);
             neww = 0;
         }
+        int[] answer = list.stream().mapToInt(Integer::intValue).toArray();
         return answer;
     }
 }
