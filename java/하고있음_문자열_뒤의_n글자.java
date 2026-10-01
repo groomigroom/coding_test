@@ -2,10 +2,9 @@ import java.util.*;
 
 class Solution {
     public String solution(String my_string, int n) {
-        String answer = "";
         StringBuilder ansb = new StringBuilder();
-        ansb.append(my_string.substring(my_string.length()));
-        return answer;
+        ansb.append(my_string.substring(my_string.length()-n, my_string.length()-1));
+        return ansb.toString();
     }
 }
 
