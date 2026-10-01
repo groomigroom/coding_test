@@ -4,7 +4,9 @@ class Solution {
     public int[] solution(String[] intStrs, int k, int s, int l) {
         int[] answer = {};
         for (int i = 0; i < intStrs.length; i++) {
-            if ()
+            if (Integer.parseInt(intStrs.substring(s, s+l+1)) > k) {
+                
+            }
         }
         return answer;
     }
@@ -15,6 +17,7 @@ public class Main {
       System.out.println("Hello, World!");
     }
 }
+
 
 
 
