@@ -4,6 +4,7 @@ class Solution {
     public String solution(String my_string, int n) {
         String answer = "";
         StringBuilder ansb = new StringBuilder();
+        ansb.append(my_string.substring(my_string.length()));
         return answer;
     }
 }
