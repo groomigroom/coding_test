@@ -8,6 +8,11 @@ function solution(my_string, queries) {
         .split('')
         .reverse()
         .join('');
+
+        let suffix = my_string.substring(queries[i][1]+1);
+
+        my_string = prefix + middle + suffix;
     }
+    answer = my_string;
     return answer;
 }
