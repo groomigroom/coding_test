@@ -5,6 +5,12 @@ class Solution {
         String answer = "";
         for (int i = 0; i < queries.length; i++) {
             String prefix = my_string.substring(0, queries[i][0]);
+
+            String middle = new StringBuilder(my_string.substring(queries[i][0], queries[i][1]).reverse().toString());
+
+            String suffix = my_string.substring(queries[i][1]);
+
+            
         }
         return answer;
     }
