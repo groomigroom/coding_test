@@ -9,5 +9,5 @@ def solution(arr, queries):
                 arr[j] += 1
 
     for s in range (len(arr)):
-        answer[s].append(arr[s])
+        answer.append(arr[s])
     return answer
