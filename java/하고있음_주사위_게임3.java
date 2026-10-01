@@ -8,6 +8,11 @@ class Solution {
         diceSet.add(b);
         diceSet.add(c);
         diceSet.add(d);
+        if (diceSet.size() == 1) {
+          answer = 1111 * a;
+        } else if (diceSet.size() == 2) {
+          
+        }
         return answer;
     }
 }
