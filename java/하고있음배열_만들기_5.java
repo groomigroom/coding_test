@@ -9,7 +9,7 @@ class Solution {
                 list.add(iii);
             }
         }
-        return answer;
+        return list.stream().mapToInt(Integer::intValue).toArray();
     }
 }
 
