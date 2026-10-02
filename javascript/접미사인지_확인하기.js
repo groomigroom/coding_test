@@ -15,3 +15,4 @@ function solution(my_string, is_suffix) {
         answer = 1;
     }
     return answer;
+}
