@@ -3,9 +3,15 @@ import java.util.*;
 class Solution {
     public int solution(String my_string, String is_suffix) {
         int answer = 0;
+        int count = 0;
         for (int i = 0; i < is_suffix.length(); i--) {
-            int count = 0;
-            if (is_suffix.charAt(is_suffix.length()-1-i) == my_string.charAt(my_string.length()-1-i))
+            
+            if (is_suffix.charAt(is_suffix.length()-1-i) == my_string.charAt(my_string.length()-1-i)) {
+              count++;
+            }
+        }
+        if (count == is_suffix.length()){
+          answer = 1;
         }
         return answer;
     }
