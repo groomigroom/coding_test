@@ -4,5 +4,6 @@ function solution(my_string) {
         let ii = my_string.substring(i, my_string.length);
         answer.push(ii);
     }
+    answer.sort();
     return answer;
 }
