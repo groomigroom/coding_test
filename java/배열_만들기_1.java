@@ -2,18 +2,20 @@ import java.util.*;
 
 class Solution {
     public int[] solution(int n, int k) {
-        int[] answer = {};
-        for(int n = 1; i <= n; i++) {
+        List<Integer> list = new ArrayList<>();
+        for(int i = 1; i <= n; i++) {
             if (i % k == 0) {
-              
+                list.add(i);
             }
         }
-        return answer;
+        return list.stream().mapToInt(Integer::intValue).toArray();
     }
 }
 
 public class Main {
     public static void main(String[] args) {
-      System.out.println('b' - 'a');
+        Solution uu = new Solution();
+        int[] uuu = uu.solution(622, 3);
+        System.out.println(Arrays.toString(uuu));
     }
 }
