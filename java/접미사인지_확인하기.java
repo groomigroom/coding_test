@@ -5,7 +5,7 @@ class Solution {
         int answer = 0;
         for (int i = 0; i < is_suffix.length(); i--) {
             int count = 0;
-            if (is_suffix.charAt(is_suffix.length()-i) == )
+            if (is_suffix.charAt(is_suffix.length()-1-i) == my_string.charAt(my_string.length()-1-i))
         }
         return answer;
     }
