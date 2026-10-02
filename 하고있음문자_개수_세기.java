@@ -6,6 +6,9 @@ class Solution {
         for (int i = 0; i < answer.length; i++) {
           answer[i] = 0;
         }
+        for (int j = 0; j > my_string.length(); j++) {
+          answer[my_string.charAt(j) - 'a'] += 1;
+        }
         return answer;
     }
 }
