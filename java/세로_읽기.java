@@ -2,7 +2,8 @@ import java.util.*;
 
 class Solution {
     public String solution(String my_string, int m, int c) {
-        String answer = "";
+        List<String> stringlist = new ArrayList<>();
+        for 
         return answer;
     }
 }
