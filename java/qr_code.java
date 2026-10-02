@@ -2,12 +2,13 @@ import java.util.*;
 
 class Solution {
     public String solution(int q, int r, String code) {
-        String answer = "";
+        StringBuilder sbb = new StringBuilder();
         for (int i = 0; i < code.length(); i++) {
             if (i % q == r) {
-                code.charAt(i);
+                sbb.append(code.charAt(i));
             }
         }
+        String answer = sbb.toString();
         return answer;
     }
 }
