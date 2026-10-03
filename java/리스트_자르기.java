@@ -27,6 +27,8 @@ class Solution {
 
 public class Main {
     public static void main(String[] args) {
-      System.out.println("Hello, World!");
+      Solution uu = new Solution();
+      int[] new = uu.solution(3, {1, 5, 2}, {1, 2, 3, 4, 5, 6, 7, 8, 9});
+      System.out.println(Arrays.toString(new));
     }
 }
