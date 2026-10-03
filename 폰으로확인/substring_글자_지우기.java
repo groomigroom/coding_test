@@ -6,6 +6,10 @@ class Solution {
         for (int i = 0; i < indices.length; i++) {
           if (i > 0 && i < indices.length-1) {
             my_string = my_string.substring(0, indices[i]) + my_string.substring(indices[i + 1]);
+          } else if (i == 0) {
+            my_string = my_string.substring(1);
+          } else {
+            my_string = my_string.substring(0, indices.length-1);
           }
         }
         answer = my_string;
@@ -20,3 +24,6 @@ public class Main {
         System.out.println(annn);
     }
 }
+
+
+https://school.programmers.co.kr/learn/courses/30/lessons/181900?language=java
