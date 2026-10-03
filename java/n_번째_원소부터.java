@@ -3,7 +3,7 @@ import java.util.*;
 class Solution {
     public int[] solution(int[] num_list, int n) {
         List<Integer> ann = new ArrayList<>();
-        for (int i = n; i < num_list.length; i++) {
+        for (int i = n-1; i < num_list.length; i++) {
             ann.add(num_list[i]);
         }
         int[] answer = ann.stream().mapToInt(Integer::intValue).toArray();
@@ -12,6 +12,8 @@ class Solution {
 }
 public class Main {
     public static void main(String[] args) {
-        
+        Solution u = new Solution();
+        int[] annn = u.solution(new int[]{2, 1, 6}, 3);
+        System.out.println(Arrays.toString(annn));
     }
 }
