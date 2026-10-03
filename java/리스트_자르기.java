@@ -20,7 +20,7 @@ class Solution {
               ann.add(num_list[i]);
           }
         }
-        int[] answer = ann.stream().mapToInt().
+        int[] answer = ann.stream().mapToInt(Integer::intValue).toArray();
         return answer;
     }
 }
