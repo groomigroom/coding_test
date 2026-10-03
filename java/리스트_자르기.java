@@ -2,9 +2,11 @@ import java.util.*;
 
 class Solution {
     public int[] solution(int n, int[] slicer, int[] num_list) {
-        int[] answer = {};
+        List<Integer> ann = new ArrayList<>();
         if (n == 1) {
-          
+          for (int i = 0; i <= slicer[1]; i++) {
+            ann.add(num_list[i]);
+          }
         }
         return answer;
     }
