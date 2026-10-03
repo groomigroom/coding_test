@@ -16,6 +16,8 @@ class Solution {
 public class Main {
     public static void main(String[] args) {
         Solution uu = new Solution();
+        int[] uuu = uu.solution("kimgroomi");
+        System.out.println(Arrays.toString(uuu));
     }
 }
 
