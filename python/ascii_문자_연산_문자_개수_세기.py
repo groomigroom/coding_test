@@ -5,16 +5,10 @@ def solution(my_string):
 
     for j in rnage(len(my_string)):
         ch = my_string[j]
-        if ()
+        if ord(ch) >= ord('A') and ord(ch) <= ord('Z'):
+            answer[ord(ch) - ord('A')] += 1
+        elif ord(ch) >= ord('a') and ord(ch) <= ord('z'):
+            answer[ord(ch) - ord('a') + 26] += 1
 
-    for (int j = 0; j < my_string.length(); j++) {
-        char ch = my_string.charAt(j);
-        
-        if (ch >= 'A' && ch <= 'Z') {
-            answer[ch - 'A']++;       // 대문자: 0 ~ 25
-        } else if (ch >= 'a' && ch <= 'z') {
-            answer[ch - 'a' + 26]++;  // 소문자: 26 ~ 51
-        }
-    }
 
     return answer
