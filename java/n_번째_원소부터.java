@@ -6,7 +6,7 @@ class Solution {
         for (int i = n; i < num_list.length; i++) {
             ann.add(num_list[i]);
         }
-        int[] answer = ann.stream().mapToInt(Integer::intValue).toArrays();
+        int[] answer = ann.stream().mapToInt(Integer::intValue).toArray();
         return answer;
     }
 }
