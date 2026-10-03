@@ -12,7 +12,13 @@ class Solution {
             ann.add(num_list[i]);
           }
         } else if (n == 3) {
-          for (int i = slicer[0];)
+          for (int i = slicer[0]; i <= slicer[1]; i++) {
+            ann.add(num_list[i]);
+          }
+        } else if (n == 4) {
+          for (int i = slicer[0]; i <= slicer[1]; i += slicer[2]) {
+              ann.add(num_list[i]);
+          }
         }
         return answer;
     }
