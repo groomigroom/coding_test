@@ -8,7 +8,7 @@ function solution(my_string) {
         if (ch.charCodeAt(0) >= 'A'.charCodeAt(0) && ch.charCodeAt(0) <= 'Z'.charCodeAt(0)) {
             answer[ch.charCodeAt(0) - 'A'.charCodeAt(0)]++;       // 대문자: 0 ~ 25
         } else if (ch.charCodeAt(0) >= 'a'.charCodeAt(0) && ch.charCodeAt(0) <= 'z'.charCodeAt(0)) {
-            answer[ch - 'a' + 26]++;  // 소문자: 26 ~ 51
+            answer[ch.charCodeAt(0) - 'a'.charCodeAt(0) + 26]++;  // 소문자: 26 ~ 51
         }
     }
     return answer;
