@@ -13,6 +13,8 @@ class Solution {
 
 public class Main {
     public static void main(String[] args) {
-      System.out.println("Hello, World!");
+        Solution uu = new Solution();
+        String annn = uu.solution("apporoograpemmemprs", new int[]{1, 16, 6, 15, 0, 10, 11, 3});
+        System.out.println(annn);
     }
 }
