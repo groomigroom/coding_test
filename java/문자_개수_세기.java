@@ -6,8 +6,14 @@ class Solution {
         for (int i = 0; i < answer.length; i++) {
           answer[i] = 0;
         }
-        for (int j = 0; j > my_string.length(); j++) {
-          answer[my_string.charAt(j) - 'a'] += 1;
+        for (int j = 0; j < my_string.length(); j++) {
+            char ch = my_string.charAt(j);
+            
+            if (ch >= 'A' && ch <= 'Z') {
+                answer[ch - 'A']++;       // 대문자: 0 ~ 25
+            } else if (ch >= 'a' && ch <= 'z') {
+                answer[ch - 'a' + 26]++;  // 소문자: 26 ~ 51
+            }
         }
         return answer;
     }
@@ -20,5 +26,3 @@ public class Main {
         System.out.println(Arrays.toString(uuu));
     }
 }
-
-https://school.programmers.co.kr/learn/courses/30/lessons/181902?language=java
