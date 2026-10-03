@@ -11,6 +11,8 @@ class Solution {
           for (int i = slicer[0]; i < num_list.length; i++) {
             ann.add(num_list[i]);
           }
+        } else if (n == 3) {
+          for (int i = slicer[0];)
         }
         return answer;
     }
