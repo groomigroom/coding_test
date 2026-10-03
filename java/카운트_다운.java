@@ -6,7 +6,7 @@ class Solution {
         for (int i = start_num; i >= end_num; i--) {
             list.add(i);
         }
-        return answer;
+        return list.stream().mapToInt(Integer::intValue).toArray();
     }
 }
 
