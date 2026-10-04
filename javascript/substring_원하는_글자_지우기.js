@@ -4,8 +4,10 @@ function solution(my_string, indices) {
     for (const idx of indices) {
         toDelete[idx] = true;
     }
-    for (let i = 0; i < my_string.length(); i++) {
-        
+    for (let i = 0; i < my_string.length; i++) {
+        if (!toDelete[i]) {
+            answer += my_string[i];
+        }
     }
     return answer;
 }
