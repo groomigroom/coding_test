@@ -9,7 +9,7 @@ class Solution {
         for(int i = intervals[1][0]; i < intervals[1][1]+1; i++) {
           annn.add(arr[i]);
         }
-        int[] answer = 
+        int[] answer = annn.stream().mapToInt(Integer::intValue).toArray();
         return answer;
     }
 }
