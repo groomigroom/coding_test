@@ -15,7 +15,7 @@ class Solution {
             }
           } 
         }
-        String[] answer = annn.toArray();
+        String[] answer = annn.stream().toArray(String[]::new);
         return answer;
     }
 }
