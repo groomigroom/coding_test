@@ -6,6 +6,10 @@ class Solution {
         for (int i = n; i < num_list.length; i++) {
           list.add(num_list[i]);
         }
+        for (int j = 0; j < n; j++) {
+          list.add(num_list[j]);
+        }
+        int[] answer =
         return answer;
     }
 }
