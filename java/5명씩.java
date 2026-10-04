@@ -6,13 +6,7 @@ class Solution {
         for (int i = 0; i < names.length; i += 5) {
             annn.add(names[i]);
         }
-        String[] answer = annn.stream()
+        String[] answer = annn.stream().toArray(String[]::new);
         return answer;
-    }
-}
-
-public class Main {
-    public static void main(String[] args) {
-      System.out.println("Hello, World!");
     }
 }
