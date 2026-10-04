@@ -9,7 +9,7 @@ class Solution {
         for (int j = 0; j < n; j++) {
           list.add(num_list[j]);
         }
-        int[] answer = list.stream().mapOfInt(Integer::intValue).toArray();
+        int[] answer = list.stream().mapToInt(Integer::intValue).toArray();
         return answer;
     }
 }
