@@ -40,3 +40,6 @@ public class Main {
       System.out.println(Arrays.toString(aaa));
     }
 }
+
+
+https://school.programmers.co.kr/learn/courses/30/lessons/181894?language=java
