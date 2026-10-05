@@ -7,6 +7,10 @@ class Solution {
           for (int i = 0; i < num_list.length; i++) {
             answer += num_list[i];
           }
+        } else {
+          for (int i = 0; i < num_list.length; i++) {
+            answer *= num_list[i];
+          }
         }
         return answer;
     }
