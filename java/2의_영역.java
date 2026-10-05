@@ -36,7 +36,7 @@ class Solution {
 public class Main {
     public static void main(String[] args) {
       Solution uu = new Solution();
-      int[] aaa = uu.solution({1, 2, 1, 4, 5, 2, 9});
+      int[] aaa = uu.solution(new int[] {1, 2, 1, 4, 5, 2, 9});
       System.out.println(Arrays.toString(aaa));
     }
 }
