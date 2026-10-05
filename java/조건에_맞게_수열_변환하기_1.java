@@ -1,1 +1,19 @@
-조건에_맞게_수열_변환하기_1
+import java.util.*;
+
+class Solution {
+    public int[] solution(int[] arr) {
+        int[] answer = {};
+        for (int i = 0; i < arr.length; i++) {
+          if (arr[i] >= 50 && arr[i] % 2 == 0) {
+            arr[i] /= 2;
+          } else if ()
+        }
+        return answer;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+      System.out.println("Hello, World!");
+    }
+}
