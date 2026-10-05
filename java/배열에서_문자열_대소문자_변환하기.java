@@ -8,9 +8,13 @@ class Solution {
             for (int j = 0; j < strArr[i].length(); j++) {
               answer.append(Character.toUpperCase(strArr[i].charAt(j)));
             }
+          } else {
+            for (int j = 0; j < strArr[i].length(); j++) {
+              answer.append(Character.toLowerCase(strArr[i].charAt(j)));
+            }
           }
         }
-        return answer;
+        return answer.toString();
     }
 }
 
