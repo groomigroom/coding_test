@@ -3,12 +3,15 @@ import java.util.*;
 class Solution {
     public int solution(int[] rank, boolean[] attendance) {
         int answer = 0;
-        int first_winner = -1;
-        int second_winner = -1;
-        int third_winner = -1;
+        int first_winner = 0;
+        int second_winner = 0;
+        int third_winner = 0;
         for (int i = 0; i < rank.length; i++) {
-          if (rank[i] > first_winner) 
+          if (rank[i] > rank[first_winner]) {
+            first_winner = i;
+          }
         }
+        System.out.println(first_winner);
         return answer;
     }
 }
