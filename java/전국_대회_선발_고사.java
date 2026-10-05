@@ -3,6 +3,10 @@ import java.util.*;
 class Solution {
     public int solution(int[] rank, boolean[] attendance) {
         int answer = 0;
+        int first_winner = -1;
+        int second_winner = -1;
+        int third_winner = -1;
+
         return answer;
     }
 }
