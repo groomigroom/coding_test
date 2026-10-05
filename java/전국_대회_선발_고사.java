@@ -6,7 +6,9 @@ class Solution {
         int first_winner = -1;
         int second_winner = -1;
         int third_winner = -1;
-
+        for (int i = 0; i < rank.length; i++) {
+          if (rank[i] > first_winner) 
+        }
         return answer;
     }
 }
