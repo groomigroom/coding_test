@@ -28,6 +28,7 @@ class Solution {
             annn.add(arr[iii]);
           }
         }
+        int[] answer = annn.stream().mapToInt(Integer::intValue).toArray();
         return answer;
     }
 }
