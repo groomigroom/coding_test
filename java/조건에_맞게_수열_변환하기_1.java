@@ -10,7 +10,9 @@ class Solution {
             arr[i] *= 2;
           }
         }
-        
+        for (int j = 0; j < arr.length; j++) {
+          answer[j] = arr[j];
+        }
         return answer;
     }
 }
