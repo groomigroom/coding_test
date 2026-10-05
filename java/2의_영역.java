@@ -11,12 +11,21 @@ class Solution {
             break;
           }
         }
-        if (k != arr.length-1) {
+        if (k != arr.length-1 || k != -1) {
           for (int ii = k+1; ii < arr.length; ii++) {
             if (arr[ii] == 2){
               j = ii;
               break;
             }
+          }
+        }
+        if (k == -1) {
+          annn.add(-1);
+        } else if (k == arr.length-1) {
+          annn.add(arr[k]);
+        } else {
+          for (int iii = k; iii <= j; iii++) {
+            annn.add(arr[iii]);
           }
         }
         return answer;
