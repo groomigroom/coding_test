@@ -10,7 +10,7 @@ class Solution {
 public class Main {
     public static void main(String[] args) {
       Solution uu = new Solution();
-      int[] aaa = uu.solution(new int[] {1, 2, 1, 2, 1, 10, 2, 1});
-      System.out.println(Arrays.toString(aaa));
+      int aaa = uu.solution(new int[] {3, 7, 2, 5, 4, 6, 1}, new boolean[] {false, true, true, true, true, false, false});
+      System.out.println(aaa);
     }
 }
