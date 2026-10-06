@@ -1,1 +1,7 @@
-배열_만들기_6
+function solution(arr) {
+    let answer = [];
+    for (let i = 0; i < arr.length; i++) {
+        
+    }
+    return answer;
+}
