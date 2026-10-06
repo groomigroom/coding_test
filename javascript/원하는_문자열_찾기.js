@@ -1,6 +1,8 @@
 function solution(myString, pat) {
     let answer = 0;
-    if (myString.includes(pat)) {
+    let lowMyString = myString.toLowerCase();
+    let lowPat = pat.toLowerCase();
+    if (lowMyString.includes(lowPat)) {
         answer = 1;
     } else {
         answer = 0;
