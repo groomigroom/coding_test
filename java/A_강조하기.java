@@ -6,9 +6,11 @@ class Solution {
         for (int i = 0; i < myString.length(); i++) {
           if (myString.charAt(i) != 'A') {
             result.append(Character.toLowerCase(myString.charAt(i)));
+          } else {
+            result.append(myString.charAt(i));
           }
         }
-        return answer;
+        return result.toString();
     }
 }
 
