@@ -3,7 +3,9 @@ import java.util.*;
 class Solution {
     public int solution(int[] arr) {
         int answer = 0;
-        
+        if (arr[i] >= 50 && arr[i] % 2 == 0){
+          arr[i] /= 2;
+        }
         return answer;
     }
 }
