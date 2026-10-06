@@ -5,11 +5,12 @@ class Solution {
         int answer = 0;
         int count = 0;
         String lowMyString = myString.toLowerCase();
-        for (int i = 0; i < myString.length(); i++) {
-          if (myString.charAt(i) == pat.charAt(0)) {
-            for (int j = 0; j < pat.length(); j++) {
+        String lowPat = pat.toLowerCase();
+        for (int i = 0; i < lowMyString.length(); i++) {
+          if (lowMyString.charAt(i) == lowPat.charAt(0)) {
+            for (int j = 0; j < lowPat.length(); j++) {
               
-              if (myString.charAt(i+j) == pat.charAt(j)) {
+              if (lowMyString.charAt(i+j) == lowPat.charAt(j)) {
                 count++;
               }
             }
