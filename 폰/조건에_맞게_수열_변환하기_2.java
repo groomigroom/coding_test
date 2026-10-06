@@ -3,6 +3,7 @@ import java.util.*;
 class Solution {
     public int solution(int[] arr) {
         int answer = 0;
+        
         if (arr[i] >= 50 && arr[i] % 2 == 0){
           arr[i] /= 2;
         } else if (arr[i] < 50 && arr[i] % 2 == 1) {
@@ -18,3 +19,5 @@ public class Main {
       int result = uu.solution(new int[] {1, 2, 3, 100, 99, 98});
     }
 }
+
+https://school.programmers.co.kr/learn/courses/30/lessons/181881?language=java
