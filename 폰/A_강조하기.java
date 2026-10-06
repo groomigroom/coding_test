@@ -1,5 +1,3 @@
-걍 ai 확인하기
-
 import java.util.*;
 
 class Solution {
@@ -23,6 +21,3 @@ public class Main {
       System.out.println(oo);
     }
 }
-
-
-https://school.programmers.co.kr/learn/courses/30/lessons/181874?language=java#
