@@ -24,6 +24,6 @@ class Solution {
 public class Main {
     public static void main(String[] args) {
       Solution uu = new Solution();
-      int result = uu.solution(new int[] {1, 2, 3, 100, 99, 98});
+      int result = uu.solution("AbCdEfG", "aBc");
     }
 }
