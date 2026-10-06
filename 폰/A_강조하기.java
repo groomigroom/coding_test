@@ -1,3 +1,5 @@
+걍 ai 확인하기
+
 import java.util.*;
 
 class Solution {
