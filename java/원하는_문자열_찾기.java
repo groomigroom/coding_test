@@ -6,12 +6,14 @@ class Solution {
         int count = 0;
         String lowMyString = myString.toLowerCase();
         String lowPat = pat.toLowerCase();
-        for (int i = 0; i < lowMyString.length(); i++) {
-          if (lowMyString.charAt(i) == lowPat.charAt(0)) {
-            for (int j = 0; j < lowPat.length(); j++) {
-              
-              if (lowMyString.charAt(i+j) == lowPat.charAt(j)) {
-                count++;
+        if (lowMyString.length() >= lowPat.length()) {
+          for (int i = 0; i < lowMyString.length(); i++) {
+            if (lowMyString.charAt(i) == lowPat.charAt(0)) {
+              for (int j = 0; j < lowPat.length(); j++) {
+                
+                if (lowMyString.charAt(i+j) == lowPat.charAt(j)) {
+                  count++;
+                }
               }
             }
           }
@@ -26,6 +28,7 @@ class Solution {
 public class Main {
     public static void main(String[] args) {
       Solution uu = new Solution();
-      int result = uu.solution("AbCdEfG", "aBc");
+      int result = uu.solution("aaAA", "aaaaa");
+      System.out.println(result);
     }
 }
