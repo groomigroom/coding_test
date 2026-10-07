@@ -9,10 +9,17 @@ def solution(a, b, c, d):
   count[c] += 1
   count[d] += 1
 
-  for i in range(1, 6):
+  for i in range(1, 7):
     if count[i] == 4:
       return 1111 * i
 
   p = 0
   q = 0
   
+  for i in range(1, 7):
+    if count[i] == 3:
+      p = i
+    elif count[i] == 1:
+      q = i
+
+  if
