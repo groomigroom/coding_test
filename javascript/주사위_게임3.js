@@ -22,5 +22,9 @@ function solution(a, b, c, d) {
             q = i;
         }
     }
+
+    if (p != 0) {
+        return (10 * p + q) * (10 * p + q);
+    }
     return answer;
 }
