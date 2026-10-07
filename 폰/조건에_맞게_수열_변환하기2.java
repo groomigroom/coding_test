@@ -9,7 +9,11 @@ class Solution {
             }
         }
         int small = 0;
-        
+        for (int j = 0; j < arr.length; j++) {
+            
+        }
         return answer;
     }
 }
+
+https://school.programmers.co.kr/learn/courses/30/lessons/181881?language=java
