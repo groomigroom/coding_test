@@ -31,3 +31,10 @@ def solution(a, b, c, d):
     if count[i] == 2:
       if first == 0:
         first = i
+      else:
+        second = i
+
+  if first != 0 and second != 0:
+    return (first + second) * abs(first - second)
+
+
