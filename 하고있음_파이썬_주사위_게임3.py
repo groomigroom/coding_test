@@ -5,3 +5,6 @@ def solution(a, b, c, d):
   answer = 0
   count = [0, 0, 0, 0, 0, 0, 0]
   count[a] += 1
+  count[b] += 1
+  count[c] += 1
+  count[d] += 1
