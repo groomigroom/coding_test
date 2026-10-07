@@ -8,6 +8,8 @@ class Solution {
                 arr[i] = arr[i] * 2 + 1;
             }
         }
+        int small = 0;
+        
         return answer;
     }
 }
