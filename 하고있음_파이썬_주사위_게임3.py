@@ -50,6 +50,12 @@ def solution(a, b, c, d):
 
     return q2 * r
 
-  for
+  for i in range(1, 7):
+    if count[i] == 1:
+      return i
+
+  return answer
+
+
 
 
