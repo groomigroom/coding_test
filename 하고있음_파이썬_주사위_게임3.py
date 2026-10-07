@@ -37,4 +37,11 @@ def solution(a, b, c, d):
   if first != 0 and second != 0:
     return (first + second) * abs(first - second)
 
+  if first != 0:
+    q2 = 0
+    r = 0
 
+  for i in range(1, 7):
+    if count[i] == 1:
+      if q2 == 0:
+        q2
