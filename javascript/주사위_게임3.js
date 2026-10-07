@@ -43,5 +43,30 @@ function solution(a, b, c, d) {
     if (first != 0 && second != 0) {
         return (first + second) * Math.abs(first - second);
     }
+
+    // 4. 한 쌍만 같고 나머지 두 개가 서로 다른 경우
+    if (first != 0) {
+        let q2 = 0;
+        let r = 0;
+
+        for (let i = 1; i <= 6; i++) {
+            if (count[i] == 1) {
+                if (q2 == 0) {
+                    q2 = i;
+                } else {
+                    r = i;
+                }
+            }
+        }
+
+        return q2 * r;
+    }
+
+    // 5. 네 숫자가 모두 다른 경우
+    for (let i = 1; i <= 6; i++) {
+        if (count[i] == 1) {
+            return i;
+        }
+    }
     return answer;
 }
