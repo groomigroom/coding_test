@@ -2,7 +2,9 @@ class Solution {
     public int solution(String myString, String pat) {
         int answer = 0;
         for (int i = 0; i < myString.length; i++) {
-            
+            if (myString.charAt(i) == pat.charAt(0)) {
+                
+            }
         }
         return answer;
     }
