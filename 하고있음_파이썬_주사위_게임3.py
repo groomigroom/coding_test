@@ -22,4 +22,12 @@ def solution(a, b, c, d):
     elif count[i] == 1:
       q = i
 
-  if
+  if p != 0:
+    return (10 * p + q) * (10 * p + q)
+
+  first = 0
+  second = 0
+  for i in range(1, 7):
+    if count[i] == 2:
+      if first == 0:
+        first = i
