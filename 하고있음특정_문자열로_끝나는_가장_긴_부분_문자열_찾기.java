@@ -10,9 +10,17 @@ class Solution {
                         k++;
                     }
                 }
-                if (k ==
+                if (k == pat.length) {
+                    last = i;
+                    for (int ii = 0; ii <= i; ii++) {
+                        글자 붙이기//
+                    }
+                }
             }
         }
         return answer;
     }
 }
+
+
+https://school.programmers.co.kr/learn/courses/30/lessons/181872?language=java
