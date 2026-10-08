@@ -5,10 +5,13 @@ class Solution {
             if (myString.charAt(i) == pat.charAt(0)) {
                 int count = 0;
                 for (int j = 0; j < pat.length(); j++) {
-                    
+                    if ()
                 }
             }
         }
         return answer;
     }
 }
+
+\
+https://school.programmers.co.kr/learn/courses/30/lessons/181871
