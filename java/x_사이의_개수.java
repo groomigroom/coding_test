@@ -10,6 +10,8 @@ class Solution {
 
 public class Main {
     public static void main(String[] args) {
-      System.out.println("Hello, World!");
+      Solution uu = new Solution();
+      int[] anns = uu.solution("oxooxoxxox");
+      System.out.println(Arrays.toString(anns));
     }
 }
