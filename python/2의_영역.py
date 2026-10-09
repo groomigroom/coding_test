@@ -7,4 +7,8 @@ def solution(arr):
             ii = i
         elif arr[i] == 2:
             iii = i
+
+    if ii != -1 and iii != -1:
+        for j in range(ii, iii+1):
+            answer.append(arr[j])
     return answer
