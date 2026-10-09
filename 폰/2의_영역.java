@@ -2,6 +2,7 @@ import java.util.*;
 
 class Solution {
     public int[] solution(int[] arr) {
+        List<Integer> annn = new ArrayList<>();
         int ii = -1;
         int iii = -1;
         for (int i = 0; i < arr.length; i++) {
@@ -12,6 +13,9 @@ class Solution {
             iii = i;
             System.out.println(iii);
           } 
+        }
+        for (int j = ii; j <= iii; j++) {
+          annn.add(arr[j]);
         }
         return arr;
     }
