@@ -9,4 +9,6 @@ def solution(myString):
             count = 0
     if myString[len(myString-1)] == 'x':
         answer.append(0)
+    if count != 0:
+        answer.append(count)
     return answer
