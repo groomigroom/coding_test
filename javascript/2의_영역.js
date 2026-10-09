@@ -12,12 +12,12 @@ function solution(arr) {
 
     if (ii != -1 && iii != -1) {
         for (int j = ii; j <= iii; j++) {
-            annn.push(arr[j]);
+            answer.push(arr[j]);
         }
     } else if (ii != -1 && iii == -1) {
-        annn.add(2);
+        answer.push(2);
     } else {
-        annn.add(-1);
+        answer.push(-1);
     }
     return answer;
 }
