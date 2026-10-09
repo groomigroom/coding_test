@@ -1,12 +1,12 @@
 def solution(my_string, indices):
     answer = ''
-    toDelete = []
+    toDelete = [False] * len(indices)
     for idx in indices:
         toDelete[idx] = True
 
     for i in range(len(my_string)):
         if not toDelete[i]:
-            answer.append(my_string[i])
+            answer += my_string[i]
     return answer
 
 
