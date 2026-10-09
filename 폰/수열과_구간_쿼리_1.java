@@ -23,3 +23,4 @@ public class Main {
 
 
 https://school.programmers.co.kr/learn/courses/30/lessons/181883?language=java
+이중 fo문 느낌으로
