@@ -12,7 +12,7 @@ class Solution {
             count = 0;
           }
         }
-        return answer.stream().mapToInt(Integer::intValue).toArray;
+        return answer.stream().mapToInt(Integer::intValue).toArray();
     }
 }
 
