@@ -3,7 +3,7 @@ def solution(myString):
     count = 0
     for i in range(len(myString)):
         if myString[i] != 'x':
-            count += count
+            count += 1
         else:
             answer.append(count)
             count = 0
