@@ -17,7 +17,7 @@ class Solution {
         for (int j = ii; j <= iii; j++) {
           annn.add(arr[j]);
         }
-        return arr;
+        return annn.stream().mapToInt(Integer::intValue).toArray();
     }
 }
 
