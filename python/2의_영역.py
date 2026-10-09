@@ -11,4 +11,8 @@ def solution(arr):
     if ii != -1 and iii != -1:
         for j in range(ii, iii+1):
             answer.append(arr[j])
+    elif ii != -1 and iii != -1:
+        answer.append(2)
+    else:
+        answer.append(-1)
     return answer
