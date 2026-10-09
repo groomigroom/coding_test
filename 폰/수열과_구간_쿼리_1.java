@@ -2,16 +2,7 @@ import java.util.*;
 
 class Solution {
     public int[] solution(int[] arr, int[][] queries) {
-        int[] answer = new int[arr.length];
-        for (int i = 0; i < arr.length; i++) {
-          for (int j = queries[i][0]; j <= queries[i][1]; j++) {
-            arr[j]++;
-          }
-        }
-        for (int k = 0; k < answer.length; k++) {
-          answer[k] = arr[k];
-        }
-        return answer;
+
     }
 }
 
@@ -20,7 +11,3 @@ public class Main {
       System.out.println("Hello, World!");
     }
 }
-
-
-https://school.programmers.co.kr/learn/courses/30/lessons/181883?language=java
-이중 fo문 느낌으로
