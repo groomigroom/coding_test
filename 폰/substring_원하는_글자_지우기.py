@@ -6,7 +6,7 @@ def solution(my_string, indices):
 
     for i in range(len(my_string)):
         if not toDelete[i]:
-            answer += my_string[i]
+            answer.append(my_string[i])
     return answer
 
 
