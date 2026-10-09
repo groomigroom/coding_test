@@ -1,6 +1,6 @@
 def solution(my_string, indices):
     answer = ''
-    toDelete = [False] * len(indices)
+    toDelete = [False] * len(my_string)
     for idx in indices:
         toDelete[idx] = True
 
