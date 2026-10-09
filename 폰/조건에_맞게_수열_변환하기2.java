@@ -17,3 +17,6 @@ class Solution {
 }
 
 https://school.programmers.co.kr/learn/courses/30/lessons/181881?language=java
+
+
+2중 for문 쓰면 될듯한
