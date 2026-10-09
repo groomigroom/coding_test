@@ -6,7 +6,10 @@ class Solution {
         int count = 0;
         for (int i = 0; i < myString.length(); i++) {
           if (myString.charAt(i) != 'x') {
-            
+            count++;
+          } else {
+            answer.add(count);
+            count = 0;
           }
         }
         return answer;
