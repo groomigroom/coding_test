@@ -4,6 +4,9 @@ class Solution {
     public int[] solution(String myString) {
         List<Integer> answer = new ArrayList<>();
         int count = 0;
+        if (myString.charAt(0) == 'x') {
+          answer.add(0);
+        }
         for (int i = 0; i < myString.length(); i++) {
           if (myString.charAt(i) != 'x') {
             count++;
@@ -12,12 +15,17 @@ class Solution {
             count = 0;
           }
         }
+        if (myString.charAt(myString.length()-1) == 'x') {
+          answer.add(0);
+        }
         return answer.stream().mapToInt(Integer::intValue).toArray();
     }
 }
 
 public class Main {
     public static void main(String[] args) {
-      System.out.println("Hello, World!");
+      Solution uu = new Solution();
+      int[] annn = uu.solution("oxooxoxxox");
+      System.out.println(Arrays.toString(annn));
     }
 }
