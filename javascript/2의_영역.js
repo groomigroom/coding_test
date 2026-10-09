@@ -9,5 +9,15 @@ function solution(arr) {
             iii = i;
         } 
     }
+
+    if (ii != -1 && iii != -1) {
+        for (int j = ii; j <= iii; j++) {
+            annn.push(arr[j]);
+        }
+    } else if (ii != -1 && iii == -1) {
+        annn.add(2);
+    } else {
+        annn.add(-1);
+    }
     return answer;
 }
