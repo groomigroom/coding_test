@@ -1,3 +1,4 @@
 def solution(arr, queries):
-    answer = []
+    for j in range(len(queries)):
+        for i in
     return answer
