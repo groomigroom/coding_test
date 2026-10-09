@@ -5,7 +5,11 @@ class Solution {
         int ii = -1;
         int iii = -1;
         for (int i = 0; i < arr.length; i++) {
-
+          if (arr[i] == 2 && ii == -1) {
+            ii = i;
+          } else if (arr[i] == 2) {
+            iii = i;
+          } 
         }
     }
 }
