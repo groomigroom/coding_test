@@ -9,6 +9,11 @@ function solution(myString) {
             count = 0;
         }
     }
-    if ()
+    if (myString[myString.length-1] == 'x') {
+        answer.push(0);
+    }
+    if(count != 0) {
+        answer.push(count);
+    }
     return answer;
 }
