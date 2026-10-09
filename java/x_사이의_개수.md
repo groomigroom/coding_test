@@ -1,3 +1,4 @@
+```java
 import java.util.*;
 
 class Solution {
@@ -29,3 +30,4 @@ public class Main {
       System.out.println(Arrays.toString(annn));
     }
 }
+```
