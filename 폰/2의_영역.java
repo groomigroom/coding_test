@@ -8,10 +8,8 @@ class Solution {
         for (int i = 0; i < arr.length; i++) {
           if (arr[i] == 2 && ii == -1) {
             ii = i;
-            System.out.println(ii);
           } else if (arr[i] == 2) {
             iii = i;
-            System.out.println(iii);
           } 
         }
 
@@ -19,6 +17,10 @@ class Solution {
           for (int j = ii; j <= iii; j++) {
             annn.add(arr[j]);
           }
+        } else if (iii == -1) {
+          annn.add(2);
+        } else {
+          annn.add(-1);
         }
         return annn.stream().mapToInt(Integer::intValue).toArray();
     }
