@@ -17,7 +17,7 @@ class Solution {
           for (int j = ii; j <= iii; j++) {
             annn.add(arr[j]);
           }
-        } else if (iii == -1) {
+        } else if (ii != -1 && iii == -1) {
           annn.add(2);
         } else {
           annn.add(-1);
@@ -29,7 +29,7 @@ class Solution {
 public class Main {
     public static void main(String[] args) {
       Solution uu = new Solution();
-      int[] solsol = uu.solution(new int[] {1, 2, 1, 4, 5, 2, 9});
+      int[] solsol = uu.solution(new int[] {1, 3, 1});
       System.out.println(Arrays.toString(solsol));
     }
 }
