@@ -14,8 +14,11 @@ class Solution {
             System.out.println(iii);
           } 
         }
-        for (int j = ii; j <= iii; j++) {
-          annn.add(arr[j]);
+
+        if (ii != -1 && iii != -1) {
+          for (int j = ii; j <= iii; j++) {
+            annn.add(arr[j]);
+          }
         }
         return annn.stream().mapToInt(Integer::intValue).toArray();
     }
