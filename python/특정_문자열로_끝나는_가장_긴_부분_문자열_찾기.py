@@ -15,5 +15,5 @@ def solution(myString, pat):
             if myString[i] == pat[0]:
                 index_start = i
         for k in range(index_start + len(pat)):
-            
+            answer += myString[k]
     return answer
