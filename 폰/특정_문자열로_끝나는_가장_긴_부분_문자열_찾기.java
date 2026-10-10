@@ -32,3 +32,7 @@ public class Main {
       System.out.println(uuuu);
     }
 }
+
+위에 코드가 뭐가 문제인지 인덱스 관련해서 공책에 풀어보기
+
+https://school.programmers.co.kr/learn/courses/30/lessons/181872?language=java
