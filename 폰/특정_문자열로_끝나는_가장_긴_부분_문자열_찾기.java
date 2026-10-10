@@ -7,7 +7,12 @@ class Solution {
         if (myString.charAt(i) == pat.charAt(0)) {
           int count = 0;
           for (int j = 0; j < pat.length(); j++) {
-
+            if (myString.charAt(i+j) == pat.charAt(j)) {
+              count++;
+            }
+          }
+          if (count == pat.length()) {
+            index_start = i;
           }
         }
       }
