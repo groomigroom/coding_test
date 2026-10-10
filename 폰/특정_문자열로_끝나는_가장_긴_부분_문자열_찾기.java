@@ -2,6 +2,7 @@ import java.util.*;
 
 class Solution {
     public String solution(String myString, String pat) {
+      StringBuilder ss = new StringBuilder();
       int index_start = 0;
       for (int i = 0; i < myString.length() - pat.length() + 2; i++) {
         if (myString.charAt(i) == pat.charAt(0)) {
@@ -15,6 +16,9 @@ class Solution {
             index_start = i;
           }
         }
+      }
+      for (int k = 0; k < index_start + pat.length(); k++) {
+        ss.append(myString.charAt(k));
       }
     }
 }
