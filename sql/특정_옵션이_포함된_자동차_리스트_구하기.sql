@@ -10,7 +10,8 @@ CREATE TABLE CAR_RENTAL_COMPANY_CAR (
 INSERT INTO CAR_RENTAL_COMPANY_CAR
 VALUES
 (1, "세단", 16000, "가죽시트,열선시트,후방카메라"),
-(1, "세단", 16000, "가죽시트,열선시트,후방카메라"),
+(2, "SUV", 14000, "스마트키,네비게이션,열선시트"),
+(3, "SUV", 22000, "주차감지센서,후방카메라,네비게이션");
 
 select *
 from CAR_RENTAL_COMPANY_CAR
