@@ -19,6 +19,12 @@ class Solution {
             }
           }
         }
+      } else {
+        for (int i = 0; i < myString.length(); i++) {
+          if (myString.charAt(i) == pat.charAt(0)) {
+            index_start = i;
+          }
+        }
       }
       for (int k = 0; k < index_start + pat.length(); k++) {
         ss.append(myString.charAt(k));
