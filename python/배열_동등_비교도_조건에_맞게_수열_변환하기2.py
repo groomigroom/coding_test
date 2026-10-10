@@ -7,5 +7,9 @@ def solution(arr):
                 arr[i] /= 2
             elif arr[i] < 50 and arr[i] % 2 == 1:
                 arr[i] = arr[i] * 2 + 1
-                
-    return answer
+        
+        if arr == arr2:
+            break
+        count += 1
+
+    return count
