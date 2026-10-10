@@ -4,6 +4,7 @@ class Solution {
     public String solution(String myString, String pat) {
       StringBuilder ss = new StringBuilder();
       int index_start = 0;
+        //일단 길이가 1개인지로 해서 거르기
       for (int i = 0; i < myString.length() - pat.length() + 2; i++) {
         if (myString.charAt(i) == pat.charAt(0)) {
           int count = 0;
