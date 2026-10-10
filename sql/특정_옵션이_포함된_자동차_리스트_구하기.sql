@@ -1,1 +1,3 @@
-특정_옵션이_포함된_자동차_리스트_구하기
+select *
+from CAR_RENTAL_COMPANY_CAR
+where OPTIONS like "%네비게이션%";
