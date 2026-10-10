@@ -28,7 +28,7 @@ class Solution {
 public class Main {
     public static void main(String[] args) {
       Solution uuu = new Solution();
-      String uuuu = uuu.solution("AbCdEFG");
+      String uuuu = uuu.solution("AAAAaaaa", "a");
       System.out.println(uuuu);
     }
 }
