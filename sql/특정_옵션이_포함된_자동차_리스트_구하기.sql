@@ -7,9 +7,10 @@ CREATE TABLE CAR_RENTAL_COMPANY_CAR (
 );
 
 -- insert
-INSERT INTO EMPLOYEE VALUES (0001, 'Clark', 'Sales');
-INSERT INTO EMPLOYEE VALUES (0002, 'Dave', 'Accounting');
-INSERT INTO EMPLOYEE VALUES (0003, 'Ava', 'Sales');
+INSERT INTO CAR_RENTAL_COMPANY_CAR
+VALUES
+(1, "세단", 16000, "가죽시트,열선시트,후방카메라"),
+(1, "세단", 16000, "가죽시트,열선시트,후방카메라"),
 
 select *
 from CAR_RENTAL_COMPANY_CAR
