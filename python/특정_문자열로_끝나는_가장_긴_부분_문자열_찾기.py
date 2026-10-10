@@ -10,4 +10,10 @@ def solution(myString, pat):
                         count += 1
                 if count == len(pat):
                     index_start = i
+    else:
+        for i in range(len(myString)):
+            if myString[i] == pat[0]:
+                index_start = i
+        for k in range(index_start + len(pat)):
+            
     return answer
