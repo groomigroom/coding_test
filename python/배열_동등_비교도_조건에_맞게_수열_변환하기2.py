@@ -3,6 +3,8 @@ def solution(arr):
     count = 0
     while (True):
         for j in range(len(arr)):
+            arr2[j] = arr[j]
+        for i in range(len(arr)):
             if arr[i] >= 50 and arr[i] % 2 == 0:
                 arr[i] /= 2
             elif arr[i] < 50 and arr[i] % 2 == 1:
