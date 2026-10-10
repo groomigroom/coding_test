@@ -1,4 +1,4 @@
-public String solution(String myString, String pat) {
+function solution(myString, pat) {
   StringBuilder ss = new StringBuilder();
   int index_start = 0;
     //일단 길이가 1개인지로 해서 거르기
