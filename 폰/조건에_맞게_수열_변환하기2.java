@@ -3,6 +3,9 @@ class Solution {
         int[] arr2 = new int[arr.length];
         int answer = 0;
         int count = 0;
+        for (int j = 0; j <arr.length; j++) {
+            arr2[j] = arr[j];
+        }
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > 50 && arr[i] % 2 == 0) {
                 arr[i] /= 2;
