@@ -14,7 +14,10 @@ class Solution {
                     arr[i] = arr[i] * 2 + 1;
                 }
             }
+            count++;
         }
+
+        answer = count - 1;
         
         return answer;
     }
