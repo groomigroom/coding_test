@@ -1,17 +1,17 @@
 function solution(myString, pat) {
-  answer = "";
-  index_start = 0;
+  let answer = "";
+  let index_start = 0;
     //일단 길이가 1개인지로 해서 거르기
-  if (pat.length != 1) {
+  if (pat.length !== 1) {
     for (let i = 0; i < myString.length - pat.length + 2; i++) {
-      if (myString[i] == pat[0]) {
-        int count = 0;
-        for (int j = 0; j < pat.length(); j++) {
-          if (myString.charAt(i+j) == pat.charAt(j)) {
+      if (myString[i] === pat[0]) {
+        let count = 0;
+        for (let j = 0; j < pat.length; j++) {
+          if (myString[i+j] === pat[j]) {
             count++;
           }
         }
-        if (count == pat.length()) {
+        if (count === pat.length) {
           index_start = i;
         }
       }
