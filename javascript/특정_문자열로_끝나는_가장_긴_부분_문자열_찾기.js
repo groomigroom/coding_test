@@ -17,15 +17,15 @@ function solution(myString, pat) {
       }
     }
   } else {
-    for (int i = 0; i < myString.length(); i++) {
-      if (myString.charAt(i) == pat.charAt(0)) {
+    for (let i = 0; i < myString.length; i++) {
+      if (myString[i] == pat[0]) {
         index_start = i;
       }
     }
   }
-  for (int k = 0; k < index_start + pat.length(); k++) {
-    ss.append(myString.charAt(k));
+  for (let k = 0; k < index_start + pat.length; k++) {
+    answer += myString[k];
   }
 
-  return ss.toString();
+  return answer;
 }
