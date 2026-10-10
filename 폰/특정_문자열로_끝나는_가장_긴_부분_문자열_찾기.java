@@ -5,16 +5,18 @@ class Solution {
       StringBuilder ss = new StringBuilder();
       int index_start = 0;
         //일단 길이가 1개인지로 해서 거르기
-      for (int i = 0; i < myString.length() - pat.length() + 2; i++) {
-        if (myString.charAt(i) == pat.charAt(0)) {
-          int count = 0;
-          for (int j = 0; j < pat.length(); j++) {
-            if (myString.charAt(i+j) == pat.charAt(j)) {
-              count++;
+      if (pat.length() != 1) {
+        for (int i = 0; i < myString.length() - pat.length() + 2; i++) {
+          if (myString.charAt(i) == pat.charAt(0)) {
+            int count = 0;
+            for (int j = 0; j < pat.length(); j++) {
+              if (myString.charAt(i+j) == pat.charAt(j)) {
+                count++;
+              }
             }
-          }
-          if (count == pat.length()) {
-            index_start = i;
+            if (count == pat.length()) {
+              index_start = i;
+            }
           }
         }
       }
@@ -33,7 +35,3 @@ public class Main {
       System.out.println(uuuu);
     }
 }
-
-위에 코드가 뭐가 문제인지 인덱스 관련해서 공책에 풀어보기
-
-https://school.programmers.co.kr/learn/courses/30/lessons/181872?language=java
