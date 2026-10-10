@@ -20,6 +20,8 @@ class Solution {
       for (int k = 0; k < index_start + pat.length(); k++) {
         ss.append(myString.charAt(k));
       }
+
+      return ss.toString();
     }
 }
 
