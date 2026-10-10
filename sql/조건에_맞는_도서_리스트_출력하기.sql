@@ -1,1 +1,2 @@
-조건에_맞는_도서_리스트_출력하기
+select BOOK_ID, PUBLISHED_DATE
+from BOOK
