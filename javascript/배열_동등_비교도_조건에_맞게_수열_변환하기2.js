@@ -14,6 +14,11 @@ function solution(arr) {
                 arr[i] = arr[i] * 2 + 1;
             }
         }
+
+        if (arr.length === arr2.length && arr.every((val, index) => val === arr2[index])) {
+            
+        }
     }
+    
     return answer;
 }
