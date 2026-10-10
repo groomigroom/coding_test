@@ -16,8 +16,10 @@ function solution(arr) {
         }
 
         if (arr.length === arr2.length && arr.every((val, index) => val === arr2[index])) {
-            
+            break;
         }
+
+        count++;
     }
     
     return answer;
