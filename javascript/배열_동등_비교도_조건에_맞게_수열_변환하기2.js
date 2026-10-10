@@ -1,5 +1,5 @@
 function solution(arr) {
-    let arr2 = [];
+    let arr2 = new Array(arr.length).fill(0);
     let answer = 0;
     let count = 0;
     while (true) {
