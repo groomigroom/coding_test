@@ -1,1 +1,2 @@
-평균_일일_대여_요금_구하기
+select avg(DAILY_FEE)
+from CAR_RENTAL_COMPANY_CAR
