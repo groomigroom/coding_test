@@ -2,7 +2,9 @@ import java.util.*;
 
 class Solution {
     public String solution(String myString, String pat) {
-      for (int i = 0; i < myString.length() - pat.length())
+      for (int i = 0; i < myString.length() - pat.length() + 2; i++) {
+        
+      }
     }
 }
 
