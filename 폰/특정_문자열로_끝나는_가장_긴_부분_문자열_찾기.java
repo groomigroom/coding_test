@@ -27,6 +27,8 @@ class Solution {
 
 public class Main {
     public static void main(String[] args) {
-      System.out.println("Hello, World!");
+      Solution uuu = new Solution();
+      String uuuu = uuu.solution("AbCdEFG");
+      System.out.println(uuuu);
     }
 }
