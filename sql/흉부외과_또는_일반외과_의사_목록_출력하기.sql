@@ -1,1 +1,1 @@
-흉부외과_또는_일반외과_의사_목록_출력하기
+select DR_NAME, DR_ID, MCDP_CD, HIRE_YMD
