@@ -1,1 +1,3 @@
-특정_물고기를_잡은_총_수_구하기
+select count(FISH_TYPE) as FISH_COUNT
+from FISH_INFO
+where FISH_TYPE in ()
