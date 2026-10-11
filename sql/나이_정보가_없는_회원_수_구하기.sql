@@ -1,1 +1,3 @@
-나이_정보가_없는_회원_수_구하기
+select count(*)
+from USER_INFO
+where AGE is null;
