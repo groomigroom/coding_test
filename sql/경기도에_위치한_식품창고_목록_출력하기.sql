@@ -1,1 +1,1 @@
-경기도에_위치한_식품창고_목록_출력하기
+select WAREHOUSE_ID, WAREHOUSE_NAME, ADDRESS, FREEZER_YN
