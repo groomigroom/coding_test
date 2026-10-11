@@ -10,7 +10,7 @@ insert into FISH_INFO
 values
 (0, 0, 30, "2021-12-04"),
 (1, 0, 50, "2020-03-07"),
-(1, 0, 50, "2020-03-07"),
+(2, 0, 40, "2020-03-07"),
 
 select count(ID), dayofmonth(TIME) as MONTH
 from FISH_INFO
