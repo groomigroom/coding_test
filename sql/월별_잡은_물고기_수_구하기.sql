@@ -12,7 +12,7 @@ values
 (1, 0, 50, "2020-03-07"),
 (2, 0, 40, "2020-03-07");
 
-select count(ID) as FISH_COUNT, dayofmonth(TIME) as MONTH
+select count(ID) as FISH_COUNT, month(TIME) as MONTH
 from FISH_INFO
 group by dayofmonth(TIME)
 having count(ID) > 0
