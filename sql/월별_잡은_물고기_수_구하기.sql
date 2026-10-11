@@ -1,1 +1,2 @@
-월별_잡은_물고기_수_구하기
+select FISH_COUNT, dayofmonth(TIME) as MONTH
+from
