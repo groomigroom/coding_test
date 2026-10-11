@@ -1,1 +1,4 @@
-강원도에_위치한_생산공장_목록_출력하기
+select FACTORY_ID, FACTORY_NAME, ADDRESS
+from FOOD_FACTORY
+where ADDRESS like "%강원도"
+order by FACTORY_ID;
