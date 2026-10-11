@@ -1,1 +1,3 @@
-동물의_아이디와_이름
+select ANIMAL_ID, NAME
+from ANIMAL_INS
+order by ANIMAL_ID;
