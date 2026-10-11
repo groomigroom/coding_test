@@ -1,1 +1,1 @@
-물고기_종류_별_잡은_수_구하기
+select count(a.FISH_TYPE) as FISHCOUNT, b.FISH_NAME
