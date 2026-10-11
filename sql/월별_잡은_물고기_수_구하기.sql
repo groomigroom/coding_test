@@ -1,3 +1,10 @@
+create table FISH_INFO
+(
+  ID integer not null,
+  FISH_TYPE integer not null,
+  
+);
+
 select count(ID), dayofmonth(TIME) as MONTH
 from FISH_INFO
 group by dayofmonth(TIME)
