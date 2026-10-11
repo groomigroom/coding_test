@@ -6,6 +6,10 @@ create table FISH_INFO
   TIME date not null
 );
 
+insert into FISH_INFO
+values
+(0, 0, 30, "2021-12-04"),
+
 select count(ID), dayofmonth(TIME) as MONTH
 from FISH_INFO
 group by dayofmonth(TIME)
