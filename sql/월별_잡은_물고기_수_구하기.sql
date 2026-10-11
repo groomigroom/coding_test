@@ -14,7 +14,7 @@ values
 
 select count(ID) as FISH_COUNT, month(TIME) as MONTH
 from FISH_INFO
-group by dayofmonth(TIME)
+group by month(TIME)
 having count(ID) > 0
 
-order by dayofmonth(TIME);
+order by month(TIME);
