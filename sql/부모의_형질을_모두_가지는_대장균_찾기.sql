@@ -1,1 +1,1 @@
-부모의_형질을_모두_가지는_대장균_찾기
+select ID, GENOTYPE, PARENT_GENOTYPE
