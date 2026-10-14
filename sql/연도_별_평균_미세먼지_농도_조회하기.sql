@@ -1,1 +1,1 @@
-연도_별_평균_미세먼지_농도_조회하기
+select year(YM) as YEAR, round(avg(PM_VAL1), 2) as PM10
