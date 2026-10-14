@@ -1,1 +1,3 @@
-노선별_평균_역_사이_거리_조회하기
+select ROUTE
+from SUBWAY_DISTANCE
+group by ROUTE
