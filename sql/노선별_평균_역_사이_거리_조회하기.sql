@@ -1,3 +1,3 @@
-select ROUTE, sum(D_CUMULATIVE)
+select ROUTE, sum(D_BETWEEN_DIST)
 from SUBWAY_DISTANCE
 group by ROUTE
