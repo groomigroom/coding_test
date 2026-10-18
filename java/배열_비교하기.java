@@ -12,6 +12,13 @@ class Solution {
                 arr1hap += arr1[i];
                 arr2hap += arr2[i];
             }
+            if (arr1hap > arr2hap) {
+                answer = 1;
+            } else if (arr1hap == arr2hap) {
+                answer = 0;
+            } else {
+                answer = -1;
+            }
         }
         return answer;
     }
