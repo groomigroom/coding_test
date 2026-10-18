@@ -1,0 +1,7 @@
+def solution(n):
+    answer = str(n)
+    
+    return answer
+
+문자열로_변환
+https://school.programmers.co.kr/learn/courses/30/lessons/181845
