@@ -2,3 +2,14 @@ https://school.programmers.co.kr/learn/courses/30/lessons/181860?language=java
 
 
 일단 파이썬으로 append pop해보기
+
+
+def solution(arr, flag):
+    answer = []
+    for i in range(len(arr)):
+        if flag[i] == True:
+            answer.append(arr[i])
+        else:
+            for _ in range(arr[i]):
+                answer.pop
+    return answer
