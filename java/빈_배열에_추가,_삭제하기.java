@@ -9,6 +9,12 @@ class Solution {
                     answer.add(arr[i]);
                     answer.add(arr[i]);
                 }
+            } else {
+                for (int k = 0; k < arr[i]; k++) {
+                    if (answer.length != 0) {
+                        
+                    }
+                }
             }
         }
         return answer;
