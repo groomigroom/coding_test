@@ -1,3 +1,13 @@
+import java.util.*;
+
+class Solution {
+    public int[] solution(int[] arr, boolean[] flag) {
+        List<Integer> list = new ArrayList<>();
+        return answer;
+    }
+}
+
+
 def solution(arr, flag):
     answer = []
     for i in range(len(arr)):
