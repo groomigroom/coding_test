@@ -5,4 +5,6 @@ def solution(my_string):
         if my_string[i] == ' ':
             answer.append(my_string[start_index:i])
             start_index = i + 1
+        elif i == len(my_string) - 1:
+            answer.append(my_string[start_index:])
     return answer
