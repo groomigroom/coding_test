@@ -12,6 +12,14 @@ class Solution {
                 answer.add(myString.substring(start));
             }
         }
+        /*
+        
+        int[] result = new int[answer.size()];
+        for (int i = 0; i < answer.size(); i++) {
+            result[i] = answer.get(i);
+        }
+        정렬도 찾기
+        */
         return answer;
     }
 }
