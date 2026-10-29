@@ -1,1 +1,8 @@
-문자열_잘라서_정렬하기
+import java.util.*;
+
+class Solution {
+    public String[] solution(String myString) {
+        List<String> answer = new ArrayList<>();
+        return answer;
+    }
+}
