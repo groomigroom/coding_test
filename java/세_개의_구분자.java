@@ -10,6 +10,7 @@ class Solution {
                 count = i + 1;
             }
         }
+        if //answer의 length가 0이면 "EMPTY" 넣기
         return answer;
     }
 }
