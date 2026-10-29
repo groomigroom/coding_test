@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public String[] solution(String myStr) {
         List<String> answer = new ArrayList<>();
@@ -10,7 +12,9 @@ class Solution {
                 count = i + 1;
             }
         }
-        if //answer의 length가 0이면 "EMPTY" 넣기
+        if (answer.size() == 0) {
+            answer.add("EMPTY");
+        }
         return answer;
     }
 }
