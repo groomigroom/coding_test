@@ -15,6 +15,15 @@ class Solution {
         if (answer.size() == 0) {
             answer.add("EMPTY");
         }
-        return answer;
+        
+        // 3. List<Integer>를 리턴 타입인 int[] 배열로 변환합니다.
+        String[] result = new String[answer.size()];
+        for (int i = 0; i < answer.size(); i++) {
+            result[i] = answer.get(i);
+        }
+        
+        return result;
     }
 }
+
+//https://school.programmers.co.kr/learn/courses/30/lessons/181862?language=java
