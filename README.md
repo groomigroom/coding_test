@@ -8,5 +8,5 @@
 * Debugger 사용 불가 하므로
 * Console 출력으로 연습
 
-이거부터 보기
-https://www.youtube.com/watch?v=ansd5B27uJM&list=PLi-xJrVzQaxXC2Aausv_6mlOZZ2g2J6YB&index=2
+이거부터 보기 9분 28초 BFS 문제
+https://www.youtube.com/watch?v=ansd5B27uJM&list=PLi-xJrVzQaxXC2Aausv_6mlOZZ2g2J6YB&index=3
