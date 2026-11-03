@@ -4,3 +4,8 @@
 
 # BFS: Breadth-first search (너비 우선 탐색)
 # DFS: Depth-first search (깊이 우선 탐색)
+
+# BFS 아이디어
+* 시작점에 연결된 vertex 찾기
+* 찾은 vertex를 queue에 저장
+* queue의 가장 먼저 것 뽑아서 반복
