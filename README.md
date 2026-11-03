@@ -7,3 +7,6 @@
 * IDE에서 작성 후 복붙이 불가
 * Debugger 사용 불가 하므로
 * Console 출력으로 연습
+
+이거부터 보기
+https://www.youtube.com/watch?v=ansd5B27uJM&list=PLi-xJrVzQaxXC2Aausv_6mlOZZ2g2J6YB&index=2
