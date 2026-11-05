@@ -11,6 +11,8 @@ function quickSort(ary) {
     for (let num = 0; num < n; num++) {
         if (ary[num] < pivot) {
             leftAry.push(ary[num]);
+        } else if (ary[num] > pivot) {
+            rightAry.push(ary[num]);
         }
     }
 }
