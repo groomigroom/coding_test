@@ -13,3 +13,6 @@ def quickSort(ary):
             rightAry.append(num)
     return quickSort(leftAry) + [pivot] + quickSort(rightAry)
 
+# main
+dataAry = [188, 150,168, 162, 105, 120, 177, 50]
+print(dataAry)
