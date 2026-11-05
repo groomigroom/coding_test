@@ -15,4 +15,5 @@ function quickSort(ary) {
             rightAry.push(ary[num]);
         }
     }
+    return quickSort(leftAry) + [pivot] + quickSort(rightAry);
 }
