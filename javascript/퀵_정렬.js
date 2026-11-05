@@ -22,3 +22,4 @@ function quickSort(ary) {
 let dataAry = ["구름이", "비숑", "멍멍이", "친구"];
 console.log(dataAry);
 let sortedDataAry = quickSort(dataAry);
+console.log(sortedDataAry);
