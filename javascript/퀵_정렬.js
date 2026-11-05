@@ -5,7 +5,7 @@ function quickSort(ary) {
         return ary;
     }
 
-    let pivot =  ary[a / 2];
+    let pivot =  ary[n / 2];
     let leftAry = [];
     let rightAry = [];
     for (let num = 0; num < n; num++) {
@@ -17,3 +17,8 @@ function quickSort(ary) {
     }
     return quickSort(leftAry).concat([pivot]).concat(quickSort(rightAry));
 }
+
+//main
+let dataAry = ["구름이", "비숑", "멍멍이", "친구"];
+console.log(dataAry);
+let sortedDataAry = quickSort(dataAry);
