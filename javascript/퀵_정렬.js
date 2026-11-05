@@ -4,4 +4,6 @@ function quickSort(ary) {
     if (n <= 1) {
         return ary;
     }
+
+    let pivot =  ary[a / 2];
 }
