@@ -9,6 +9,8 @@ function quickSort(ary) {
     let leftAry = [];
     let rightAry = [];
     for (let num = 0; num < n; num++) {
-        
+        if (ary[num] < pivot) {
+            leftAry.push(ary[num]);
+        }
     }
 }
