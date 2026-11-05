@@ -16,3 +16,5 @@ def quickSort(ary):
 # main
 dataAry = [188, 150,168, 162, 105, 120, 177, 50]
 print(dataAry)
+dataAry = quickSort(dataAry)
+print(dataAry)
