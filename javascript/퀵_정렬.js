@@ -6,4 +6,9 @@ function quickSort(ary) {
     }
 
     let pivot =  ary[a / 2];
+    let leftAry = [];
+    let rightAry = [];
+    for (let num = 0; num < n; num++) {
+        
+    }
 }
