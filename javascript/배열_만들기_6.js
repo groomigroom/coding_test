@@ -4,9 +4,9 @@ function solution(arr) {
         if (answer.length == 0) {
             answer.push(arr[i]);
         } else if (answer.length != 0 && answer[answer.length -1] == arr[i]) {
-            answer.pop();
+            answer.pop(answer.length -1);
         } else if (answer.length != 0 && answer[answer.length -1] != arr[i]) {
-            answer.add(arr[i]);
+            answer.push(arr[i]);
         }
     }
     
