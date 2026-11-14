@@ -12,6 +12,12 @@ class Solution {
                 answer.add(arr[i]);
             }
         }
-        return answer;
+
+        
+        int[] result = new int[answer.size()];
+        for (int i = 0; i < answer.size(); i++) {
+            result[i] = answer.get(i);
+        }
+        return result;
     }
 }
