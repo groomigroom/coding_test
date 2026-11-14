@@ -1,3 +1,5 @@
+//https://school.programmers.co.kr/learn/courses/30/lessons/468371?language=java
+
 class Solution {
     public int solution(int[][] signals) {
         int answer = 0;
