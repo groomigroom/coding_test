@@ -13,11 +13,17 @@ class Solution {
             }
         }
 
+        if (answer.size() == 0) {
+            return new int[] {-1};
+        }
         
         int[] result = new int[answer.size()];
         for (int i = 0; i < answer.size(); i++) {
             result[i] = answer.get(i);
         }
+        
+        
+        
         return result;
     }
 }
