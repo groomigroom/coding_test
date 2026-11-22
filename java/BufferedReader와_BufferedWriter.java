@@ -10,5 +10,7 @@ public class Main {
       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
       BufferedWriter bw = new BufferedWriter(new OutputStreamReader(System.out));
       int b = Integer.parseInt(br.readLine());
+      bw.write(String.valueOf(b));
+      bw.flush();
     }
 }
