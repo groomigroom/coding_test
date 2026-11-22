@@ -12,4 +12,4 @@
 https://www.youtube.com/watch?v=ansd5B27uJM&list=PLi-xJrVzQaxXC2Aausv_6mlOZZ2g2J6YB&index=3
 
 
-책22쪽 코드부터
+책26쪽 코드부터
