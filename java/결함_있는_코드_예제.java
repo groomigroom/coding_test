@@ -7,6 +7,9 @@ public class Main {
       int answer = 0;
       int A[] = new int[100001];
       int S[] = new int[100001];
+      for (int i = 1; i < 10000; i++) {
+        A[i] = (int)
+      }
           System.out.println(cnt++);
       
     }
