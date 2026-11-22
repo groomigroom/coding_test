@@ -13,6 +13,8 @@ https://www.youtube.com/watch?v=ansd5B27uJM&list=PLi-xJrVzQaxXC2Aausv_6mlOZZ2g2J
 
 
 * 책36쪽 코드부터
+https://github.com/groomigroom/coding_test/blob/main/java/%EA%B3%84%EC%88%98%EC%A0%95%EB%A0%AC.java 이게 36쪽꺼인데 하다맘
+
 *  https://github.com/groomigroom/coding_test/blob/main/java/%EA%B2%B0%ED%95%A8_%EC%9E%88%EB%8A%94_%EC%BD%94%EB%93%9C_%EC%98%88%EC%A0%9C.java
 위에꺼가 26-29쪽인데, 맥북으로 확인
 
