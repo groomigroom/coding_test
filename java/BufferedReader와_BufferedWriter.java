@@ -8,6 +8,7 @@ public class Main {
       System.out.println(a);
 
       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
+      BufferedWriter bw = new BufferedWriter(new OutputStreamReader(System.out));
+      int b = Integer.parseInt(br.readLine());
     }
 }
