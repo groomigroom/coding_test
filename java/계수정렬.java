@@ -8,6 +8,9 @@ public class Main {
         int N = Integer.parseInt(br.readLine());
         int[] count = new int[1001];
         StringTokenizer st = new StringTokenizer(br.readLine());
+        for (int i = 0; i < N; i++) {
+            
+        }
       System.out.println("Hello, World!");
     }
 }
