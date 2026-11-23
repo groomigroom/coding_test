@@ -13,6 +13,9 @@ public class Main {
             count[number]++;
         }
         br.close();
+        for (int i = 0; i <= 1000; i++) {
+            
+        }
       System.out.println("Hello, World!");
     }
 }
