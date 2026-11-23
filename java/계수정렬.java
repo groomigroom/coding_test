@@ -12,6 +12,7 @@ public class Main {
             int number = Integer.parseInt(st.nextToken());
             count[number]++;
         }
+        br.close();
       System.out.println("Hello, World!");
     }
 }
