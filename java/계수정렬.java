@@ -10,6 +10,7 @@ public class Main {
         StringTokenizer st = new StringTokenizer(br.readLine());
         for (int i = 0; i < N; i++) {
             int number = Integer.parseInt(st.nextToken());
+            count[number]++;
         }
       System.out.println("Hello, World!");
     }
