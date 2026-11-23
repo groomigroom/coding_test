@@ -9,7 +9,7 @@ public class Main {
         int[] count = new int[1001];
         StringTokenizer st = new StringTokenizer(br.readLine());
         for (int i = 0; i < N; i++) {
-            
+            int number = Integer.parseInt(st.nextToken());
         }
       System.out.println("Hello, World!");
     }
