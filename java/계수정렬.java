@@ -16,10 +16,11 @@ public class Main {
         for (int i = 0; i <= 1000; i++) {
             if (count[i] != 0) {
                 for (int j = 0; j < count[i]; j++) {
-                    
+                    bw.write(i + " ");
                 }
             }
         }
-      System.out.println("Hello, World!");
+        bw.flush();
+        bw.close();
     }
 }
