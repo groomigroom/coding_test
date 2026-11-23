@@ -7,6 +7,7 @@ public class Main {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         int N = Integer.parseInt(br.readLine());
         int[] count = new int[1001];
+        String
       System.out.println("Hello, World!");
     }
 }
