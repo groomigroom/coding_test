@@ -21,3 +21,6 @@ https://github.com/groomigroom/coding_test/blob/main/java/%EA%B3%84%EC%88%98%EC%
 
 * https://github.com/groomigroom/coding_test/blob/main/java/BufferedReader%EC%99%80_BufferedWriter.java
 * 35쪽꺼 위에꺼 맥북으로 확인
+
+* https://github.com/groomigroom/coding_test/blob/main/java/1%EB%B6%80%ED%84%B0_50%EA%B9%8C%EC%A7%80_%EA%B3%B1%ED%95%9C_%EA%B0%92%EC%9D%84_10007%EB%A1%9C_%EB%82%98%EB%88%88_%EB%82%98%EB%A8%B8%EC%A7%80_%EA%B5%AC%ED%95%98%EA%B8%B0.java
+* 39쪽꺼 쓰다맘
