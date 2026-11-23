@@ -14,7 +14,11 @@ public class Main {
         }
         br.close();
         for (int i = 0; i <= 1000; i++) {
-            
+            if (count[i] != 0) {
+                for (int j = 0; j < count[i]; j++) {
+                    
+                }
+            }
         }
       System.out.println("Hello, World!");
     }
