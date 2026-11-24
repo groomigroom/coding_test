@@ -9,3 +9,7 @@ public class Main {
   }
 }
 //[5, 4, 3, 2, 1]
+/*
+Collection	여러 요소를 담는 자료구조의 기본 인터페이스
+Collections	컬렉션을 편리하게 다루도록 돕는 유틸리티 클래스
+*/
