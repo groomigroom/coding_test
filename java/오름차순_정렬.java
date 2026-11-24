@@ -6,3 +6,4 @@ public class Main {
     System.out.println(Arrays.toString(A));
   }
 }
+//[1, 2, 3, 4, 5]
