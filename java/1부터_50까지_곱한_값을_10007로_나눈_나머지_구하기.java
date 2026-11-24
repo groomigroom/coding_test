@@ -7,3 +7,6 @@ public class Main {
     System.out.println(answer%10007);
   }
 }
+
+
+---------------> 위와 같이하면 long 자료형의 범위 초과
