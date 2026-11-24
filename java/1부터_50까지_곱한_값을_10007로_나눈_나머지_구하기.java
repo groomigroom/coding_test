@@ -21,3 +21,4 @@ public class Main {
     System.out.println(answer%10007);
   }
 }
+//3235
