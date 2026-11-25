@@ -22,4 +22,4 @@ https://github.com/groomigroom/coding_test/blob/main/java/%EA%B3%84%EC%88%98%EC%
 * 35쪽꺼 위에꺼 맥북으로 확인
 
 
-* 책42쪽 코드부터 내림차순정렬 2부터
+* 책44쪽부터
