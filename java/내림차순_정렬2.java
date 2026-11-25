@@ -8,4 +8,7 @@ public class DescendingSort2 {
     negate(A); //부호 반전
     System.out.println(Arrays.toString(A));
   }
+  static void negate(int[] temp) {
+    
+  }
 }
