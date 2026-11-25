@@ -9,6 +9,8 @@ public class DescendingSort2 {
     System.out.println(Arrays.toString(A));
   }
   static void negate(int[] temp) {
-    
+    for (int i = 0; i < temp.length; i++) {
+      temp[i] *= -1;
+    }
   }
 }
