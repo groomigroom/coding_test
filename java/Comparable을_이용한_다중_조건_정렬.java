@@ -13,5 +13,6 @@ public class Score implements Comparable<Score> {
   @Override
   public int compareTo(Score o) {
     if (this.english = o.english) return o.math - this.math; 
+    return o.english - this.english;
   }
 }
