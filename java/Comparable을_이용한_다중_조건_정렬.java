@@ -16,3 +16,6 @@ public class Score implements Comparable<Score> {
     return o.english - this.english;
   }
 }
+
+-------------------------------------------------------------------------
+//클라이언트 코드
