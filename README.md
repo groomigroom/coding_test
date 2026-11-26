@@ -21,5 +21,7 @@ https://github.com/groomigroom/coding_test/blob/main/java/%EA%B3%84%EC%88%98%EC%
 * https://github.com/groomigroom/coding_test/blob/main/java/BufferedReader%EC%99%80_BufferedWriter.java
 * 35쪽꺼 위에꺼 맥북으로 확인
 
+* https://github.com/groomigroom/coding_test/blob/main/java/Comparable%EC%9D%84_%EC%9D%B4%EC%9A%A9%ED%95%9C_%EB%8B%A4%EC%A4%91_%EC%A1%B0%EA%B1%B4_%EC%A0%95%EB%A0%AC.java
+* 44쪽꺼 분석하기
 
 * 책44쪽부터
