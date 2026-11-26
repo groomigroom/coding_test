@@ -8,6 +8,6 @@ public class Score implements Comparable<Score> {
   }
   @Override
   public String toString() {
-    
+    return "Score{" + "english=" + english + ", math=" + math + "}";
   }
 }
