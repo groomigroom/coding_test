@@ -11,4 +11,7 @@ public class Score implements Comparable<Score> {
     return "Score{" + "english=" + english + ", math=" + math + "}";
   }
   @Override
+  public int compareTo(Score o) {
+    
+  }
 }
