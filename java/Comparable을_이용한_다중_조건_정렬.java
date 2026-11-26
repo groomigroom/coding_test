@@ -23,5 +23,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Main {
-  public 
+  public static void main(String[] args) {
+    ArrayList
+  }
 }
