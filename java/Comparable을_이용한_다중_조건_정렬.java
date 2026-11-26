@@ -32,7 +32,7 @@ public class Main {
 
     Collections.sort(myarr);
     for (Score s : myarr) {
-      
+      System.out.println(s.toString());
     }
   }
 }
