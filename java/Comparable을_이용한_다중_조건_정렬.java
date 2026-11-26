@@ -1,1 +1,3 @@
-Comparable을_이용한_다중_조건_정렬
+public class Score implements Comparable<Score> {
+  
+}
