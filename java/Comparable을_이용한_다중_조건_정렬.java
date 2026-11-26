@@ -6,4 +6,8 @@ public class Score implements Comparable<Score> {
     this.english = english;
     this.math = math;
   }
+  @Override
+  public String toString() {
+    
+  }
 }
