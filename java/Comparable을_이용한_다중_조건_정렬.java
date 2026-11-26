@@ -25,6 +25,6 @@ import java.util.Collections;
 public class Main {
   public static void main(String[] args) {
     ArrayList<Score> myarr = new ArrayList<>();
-    
+    myarr.add(new Score(80, 100));
   }
 }
