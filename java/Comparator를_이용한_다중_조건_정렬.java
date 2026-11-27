@@ -7,3 +7,7 @@ public class ScoreComparator implements Comparator<Score> {
     return o2.math - o1.math;
   }
 }
+
+-----------------------------------------------------------
+//클라이언트 코드
+import java.util.ArrayList;
