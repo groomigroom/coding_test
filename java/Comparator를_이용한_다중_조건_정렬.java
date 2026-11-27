@@ -23,7 +23,7 @@ public class Main {
 
     Collections.sort(myarr, new ScoreComparator());
     for (Score s : myarr) {
-      
+      System.out.println(s.toString());
     }
   }
 }
