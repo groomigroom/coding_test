@@ -13,4 +13,7 @@ for (int i = 0; i < 10; i++) {
   List[i] = new ArrayList<Edge>();
 }
 ```
+```java
+//그래프 데이터 저장하기
+```
 
