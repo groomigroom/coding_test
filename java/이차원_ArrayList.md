@@ -17,6 +17,9 @@ for (int i = 0; i < 10; i++) {
 //그래프 데이터 저장하기
 for (int i = 0; i < E; i++) {
   st = new StringTokenizer(br.readLine());
+  int s = Integer.parseInt(st.nextToken());
+  int e = Integer.parseInt(st.nextToken());
+  int v = Integer.parseInt(st.nextToken());
 }
 ```
 
