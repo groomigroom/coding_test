@@ -5,3 +5,7 @@ class Edge {
   int value;
 }
 ```
+```java
+//위 Edge 클래스를 자료형으로
+```
+
