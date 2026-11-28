@@ -28,6 +28,7 @@ for (int i = 0; i < E; i++) {
 for (int i = 0; i < list[1].size(); i++) {
   Edge tmp = list[1].get(i);
   int next = tmp.endNote;
+  int value = tmp.value;
 }
 ```
 
