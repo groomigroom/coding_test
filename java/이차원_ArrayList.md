@@ -20,6 +20,7 @@ for (int i = 0; i < E; i++) {
   int s = Integer.parseInt(st.nextToken());
   int e = Integer.parseInt(st.nextToken());
   int v = Integer.parseInt(st.nextToken());
+  list[s].add(new Edge(e, v));
 }
 ```
 
