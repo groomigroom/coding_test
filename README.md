@@ -27,5 +27,6 @@ https://github.com/groomigroom/coding_test/blob/main/java/%EA%B3%84%EC%88%98%EC%
 * https://github.com/groomigroom/coding_test/blob/main/java/Comparator%EB%A5%BC_%EC%9D%B4%EC%9A%A9%ED%95%9C_%EB%8B%A4%EC%A4%91_%EC%A1%B0%EA%B1%B4_%EC%A0%95%EB%A0%AC.java
 * 46쪽꺼 분석하기
 
-* 책47쪽부터
+* https://github.com/groomigroom/coding_test/blob/main/java/%EC%9D%B4%EC%B0%A8%EC%9B%90_ArrayList.md
+* 책47쪽꺼 분석해서 만들기
 
