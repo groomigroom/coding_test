@@ -30,3 +30,4 @@ https://github.com/groomigroom/coding_test/blob/main/java/%EA%B3%84%EC%88%98%EC%
 * https://github.com/groomigroom/coding_test/blob/main/java/%EC%9D%B4%EC%B0%A8%EC%9B%90_ArrayList.md
 * 책47쪽꺼 분석해서 만들기
 
+* 52쪽부터 일단 읽고 나서.
