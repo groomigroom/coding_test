@@ -23,4 +23,7 @@ for (int i = 0; i < E; i++) {
   list[s].add(new Edge(e, v));
 }
 ```
+```java
+//그래프 데이터 가져오기
+```
 
